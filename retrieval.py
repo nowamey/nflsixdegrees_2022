@@ -1,11 +1,12 @@
 
 from logging import exception
 from xml.etree.ElementTree import Comment
-from numpy import column_stack
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
+import time
+
 comm = re.compile("<!--|-->")
 
 teams = ["buf","mia","nyj","nwe","oti","clt","jax","htx","rav","cin","cle","pit","kan","sdg","den","rai",
@@ -22,6 +23,7 @@ def gethtml(url):
     soupdata = BeautifulSoup(comm.sub("",page.text),'lxml')
     return soupdata
 def getRoster(team):
+    time.sleep(1)
     soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/2022_roster.htm")
     roster = soup.find('table',{'id':'roster'})
     return roster
@@ -49,14 +51,14 @@ if __name__=="__main__":
             
                 
             length = len(data)
-            #print(row)
+            print(row)
             collegescount =1
             positionscount = 1
             teamnamescount = 1
             if(len(row) == 13):
 
                 if row[7]!='' and row[7] not in colleges.values :
-                    colleges[row[7]] = collegescount
+
                     collegescount+=1
                 if row[2]!='' and row[2] not in positions.values:
                     positions[row[2]] = positionscount
@@ -68,9 +70,6 @@ if __name__=="__main__":
                     row[11] = "Undrafted"
                 
                 #should populate the row with id's from the dictionary, rather than strings
-                if(row[7]!=''):row[7] = colleges[row[7]]
-                if(row[2]!=''):row[2] = positions[row[2]]
-                if(row[12]!=''):row[12] = teamnames[row[12]]
                 
                 data.loc[length] = row
                 

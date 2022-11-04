@@ -52,20 +52,9 @@ if __name__=="__main__":
                 
             length = len(data)
             print(row)
-            collegescount =1
-            positionscount = 1
-            teamnamescount = 1
+            
             if(len(row) == 13):
 
-                if row[7]!='' and row[7] not in colleges.values :
-
-                    collegescount+=1
-                if row[2]!='' and row[2] not in positions.values:
-                    positions[row[2]] = positionscount
-                    positionscount +=1
-                if row[12]!='' and row[12] not in teamnames.values:
-                    teamnames[row[12]] = teamnamescount
-                    teamnamescount+=1
                 if(row[11] == ""):
                     row[11] = "Undrafted"
                 
@@ -75,31 +64,10 @@ if __name__=="__main__":
                 
         teamcounter+=1
     #Linking  tables set up for db
-    college_table = pd.DataFrame(columns=["college_id","college_name"])
-    college_counter=1
-    for college in colleges:
-        college_table.loc[len(college_table)] = [college_counter,college]
-        college_counter+=1
-    pos_counter =1
-    position_table = pd.DataFrame(columns= ["position_id","position"])
-    for position in positions:
-        position_table.loc[len(position_table)] = [pos_counter,position]
-        pos_counter+=1
-    team_table = pd.DataFrame(columns = ["team_id","team"])
-    team_counter=1
-    for team in teamnames:
-        team_table.loc[len(team_table)] = [team_counter,team]
-        team_counter+=1
     
     
     
-    #college_table.to_csv(r"C:\Users\nowam\sixdegrees\colleges.csv",index= False)
-    #position_table.to_csv(r"C:\Users\nowam\sixdegrees\positions.csv",index= False)
-    #team_table.to_csv(r"C:\Users\nowam\sixdegrees\teams.csv",index= False)
-    
-    #taking primary player table/ swapping exact names with pos_id,college_id, and team_id
-    
-    data.to_csv(r"C:\Users\nowam\sixdegrees\rosters_data.csv",index= False)
+    data.to_csv(r"C:C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
     
     
 

@@ -1,4 +1,3 @@
-
 from logging import exception
 from xml.etree.ElementTree import Comment
 import requests
@@ -23,6 +22,7 @@ def gethtml(url):
     soupdata = BeautifulSoup(comm.sub("",page.text),'lxml')
     return soupdata
 def getRoster(team):
+    #avoid rate limit from pfr 
     time.sleep(1)
     soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/2022_roster.htm")
     roster = soup.find('table',{'id':'roster'})

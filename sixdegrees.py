@@ -22,12 +22,13 @@ position: abbreviated string of player position listed on the roster
 """
 import time
 import retrieval
-ALL_PLAYERS = dict()
+PLAYERS = retrieval.run_retrieval()
 
 class player:
 
-    def __init__(self,past_teams,age,weight,height,position,drafted):
-        self.past_teams = past_teams # need to get this as a dictionary of {teamname: years in form 2001,2002,etc}
+    def __init__(self,player_name,past_teams,age,weight,height,position,drafted):
+        self.player_name = player_name
+        self.past_teams = self.get_history(player_name) #needs to scrape history data, documented in a dict of yr(int):teamname(str)
         self.age = age 
         self.weight = weight
         self.height = height
@@ -47,7 +48,10 @@ def run_menu():
     player2 = input("Please enter second player name: ")
     players = [player1,player2]
     return players
-
+def get_history(player_name):
+    #scrape web for players team history to fill history dictionary
+    #crucial for path of connection
+    pass
 if __name__ == "__main__":
     players = run_menu()
     findpath(players[0],players[1])

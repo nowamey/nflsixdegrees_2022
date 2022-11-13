@@ -1,5 +1,8 @@
-#slicing idea for name urls
+import retrieval
 
-goat = 'tua'
+def test_team_list():
+    retrieval.get_teams("Matthew Stafford")
 
-print(goat[0:4])
+
+if __name__ == "__main__":
+    test_team_list()

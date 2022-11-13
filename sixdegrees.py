@@ -22,38 +22,28 @@ position: abbreviated string of player position listed on the roster
 """
 import time
 import retrieval
-PLAYERS = retrieval.run_retrieval()
 
-class player:
+class SixDegrees:
 
-    def __init__(self,player_name,past_teams,age,weight,height,position,drafted):
-        self.player_name = player_name
-        self.past_teams = self.get_history(player_name) #needs to scrape history data, documented in a dict of yr(int):teamname(str)
-        self.age = age 
-        self.weight = weight
-        self.height = height
-        self.position = position
-
-def findpath(player_one,player_two):
-    """find path takes any two players in the NFL, and finds their shortest path to eachother based on their degrees of social seperation
-        0 degrees: same team, or past team, in which case year is specified
-        beyond the same team, there is another degree of seperation for each new mutual link there is to connect the players to eachother 
-
-        Returns: list starting with player one, ending at player two with the connective path between them in the list
-    """
-def run_menu():
-    print("Welcome to Six Degrees of the NFL! Please enter Two NFL players you would like to connect!")
-    time.sleep(.2)
-    player1 = input("Please enter first player name: ")
-    player2 = input("Please enter second player name: ")
-    players = [player1,player2]
-    return players
-def get_history(player_name):
-    #scrape web for players team history to fill history dictionary
-    #crucial for path of connection
-    pass
-if __name__ == "__main__":
-    players = run_menu()
-    findpath(players[0],players[1])
-    ALL_PLAYERS =  retrieval.getplayers()
     
+    
+    def __init__(self):
+        #attributes: players: dictionary: name: Player object with that name
+        self.players = retrieval.run_retrieval()
+        self.players_list = retrieval.run_retrieval()
+
+    def findpath(player_one,player_two):
+        """
+        """
+    def run_menu():
+        print("Welcome to Six Degrees of the NFL! Please enter Two NFL players you would like to connect!")
+        time.sleep(.2)
+        player1 = input("Please enter first player name: ")
+        player2 = input("Please enter second player name: ")
+        players = [player1,player2]
+        return players
+        
+
+if __name__ =="__main__":
+    sixdegrees= SixDegrees()
+    sixdegrees.run_menu

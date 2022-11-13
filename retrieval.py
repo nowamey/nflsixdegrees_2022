@@ -5,7 +5,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 import time
-
+# this file is responsible for running all webscraping operations, and organizing information to be used by sixdegrees.py
 COLS =["Number","Player","Age","Position","G","GS","Wt","Ht","College/Univ","Birthdate","yrs","Drafted","team"]
 data = pd.DataFrame(columns=COLS)
 colleges = dict()
@@ -26,6 +26,7 @@ FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patri
 
 def gethtml(url):
     page = requests.get(url)
+    print(page)
     soupdata = BeautifulSoup(comm.sub("",page.text),'lxml')
     return soupdata
 def getRoster(team):
@@ -52,7 +53,7 @@ def get_data(roster):
                 if(row[11] == ""):
                     row[11] = "Undrafted"
                 
-                #should populate the row with id's from the dictionary, rather than strings
+                
                 if(row[0] != "Team Total"):
                     data.loc[length] = row
     teamcounter+=1
@@ -60,13 +61,38 @@ def run_retrieval():
     for team in TEAMS:
         roster = getRoster(team)
         get_data(roster)
-    get_csv()                        
+    get_csv()
+    return data                        
 def get_csv():    
-    data.to_csv(r"C:C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
+    data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
+
+#proof of concept, we can get down to just names :)
+def player_histories():
+    #work with testdata for n
+    data = pd.read_csv(r"C:\Users\nowam\Downloads\rosters_data.csv")
+    players = list(data["Number"]) #unsure why this is holding playernames, keeping for now to keep testing
+    #cleaning the strings, getting rid of (IR, PUP, and erroneous Team totals
+    filtered = []
+    ir = False
+    for player in players:
+        counter =0
+        for char in player:
+            if(char == "("):
+                ir = True
+                filtered.append(player[0:counter-1])
+                break
+            counter+=1
+        if(player != "Team Total"):
+            if(ir == True):
+                ir =False
+            else:
+                filtered.append(player)
+    print(filtered)
     
     
 if __name__ == "__main__":
-    run_retrieval()
+    #run_retrieval()
+    player_histories()
     
     
     

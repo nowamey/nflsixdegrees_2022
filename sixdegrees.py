@@ -29,8 +29,9 @@ class SixDegrees:
     
     def __init__(self):
         #attributes: players: dictionary: name: Player object with that name
-        self.players = retrieval.run_retrieval()
-        self.players_list = retrieval.run_retrieval()
+        #           players_list: list of all player objects currently in the nfl
+        data = retrieval.run_retrieval() #tuple holding all relevant data, will apply to the sixdegrees object
+        
 
     def findpath(player_one,player_two):
         """

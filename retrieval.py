@@ -26,6 +26,8 @@ class Player:
     def __init__(self,player_name,position,weight,teamslist = [],url = None):
         self.player_name = player_name
         self.past_teams = []
+    def __repr__(self):
+        return f"{self.player_name}\n{self.past_teams}"
     
 class Team:
     def __init__(self,team_name,year):

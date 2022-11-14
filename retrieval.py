@@ -8,9 +8,8 @@ import time
 # this file is responsible for running all webscraping operations, and organizing information to be used by sixdegrees.py
 COLS =["Number","Player","Age","Position","G","GS","Wt","Ht","College/Univ","Birthdate","yrs","Drafted","team"]
 data = pd.DataFrame(columns=COLS)
-teamcounter=0
-players = dict()
-name_number = dict()
+playercount=0 
+player_dict = dict() #maps filtered strings to a list of players to be iterated
 players_list = []
 #comm implemented to help pull from table that isnt directly embedded in the html
 comm = re.compile("<!--|-->")
@@ -23,9 +22,10 @@ FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patri
              "Atlanta Falcons","New Orleans Saints","Carolina Panthers","Minnesota Vikings","Green Bay Packers","Detroit Lions","Chicago Bears",
              "San Francisco 49ers","Arizona Cardinals","Los Angeles Rams","Seattle Seahawks"]
 class Player:
-    def __init__(self,player_name):
+    def __init__(self,player_name,position,weight,teamslist = []):
         self.player_name = player_name
         self.past_teams = []
+    
 class Team:
     def __init__(self,team_name,year):
         self.team_name = team_name
@@ -37,58 +37,40 @@ def gethtml(url):
     print(page)
     soupdata = BeautifulSoup(comm.sub("",page.text),'lxml')
     return soupdata
-
 def getRoster(team,year):
     #avoid rate limit from pfr 
     time.sleep(1)
     soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/{year}_roster.htm")
     roster = soup.find('table',{'id':'roster'})
     return roster
-
-def get_data(roster):
-    #gets names of every player on the roster for a given year 
-    global teamcounter
-    for row in roster.find_all('tr'):
-            rowsdata = row.find_all('td')
-            row = [i.text for i in rowsdata]
-            
-            #Taking into account undrafted players
-            row.append(FULLNAMES[teamcounter])
-            
-                
-            length = len(data)
-            print(row)
-            
-            if(len(row) == 13):
-
-                if(row[11] == ""):
-                    row[11] = "Undrafted"
-                
-                
-                if(row[0] != "Team Total"):
-                    data.loc[length] = row
-    teamcounter+=1
 def run_retrieval():
     for team in TEAMS:
         roster = getRoster(team,2022)
-        get_data(roster)
-    get_csv()
+        get_players(roster)
+    return players_list
+
     return data                        
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster):
-    global teamcounter
-    global players
+    global player_dict
+    global players_list
     rosterplayers = []
     for row in roster.find_all('tr'):
             rowsdata = row.find_all('td')
             row = [i.text for i in rowsdata]
-            player = Player(row[0],get_teams(row[0]))
-
-            #making sure we dont add players more than we need to
-            if(player not in players_list):    
-                players_list.append(player)
-                players[row[0]] = player
+            
+            searchterm = filtername(row[0])
+            player = Player(row[0],row[2],row[5])
+            if(player_dict[searchterm] is None):
+                player_dict[searchterm] = []
+                player_dict[searchterm].append(player)
+            else:
+                #making sure we dont add players more than we need to
+                if(player not in players_list):    
+                    players_list.append(player)
+                    player_dict[searchterm].append(player)
+            
             #Taking into account undrafted players
             row.append(FULLNAMES[teamcounter])
             

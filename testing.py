@@ -1,7 +1,7 @@
 import retrieval
 
 def test_team_list():
-    retrieval.get_teams("Matthew Stafford")
+    print((retrieval.get_teams("Josh Allen")))
 
 
 if __name__ == "__main__":

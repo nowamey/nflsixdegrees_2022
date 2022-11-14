@@ -44,6 +44,7 @@ def getRoster(team,year):
     soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/{year}_roster.htm")
     roster = soup.find('table',{'id':'roster'})
     return roster
+
 def get_data(roster):
     #gets names of every player on the roster for a given year 
     global teamcounter
@@ -98,17 +99,38 @@ def get_players(roster):
             if(len(row) == 13):        
                 if(row[0] != "Team Total"):
                     data.loc[length] = row
-    players.append
+    #players.append
     teamcounter+=1
+    
 def get_teams(name):
-   global players
-   #should give me a  monstrosity 
-   print(gethtml(f"https://www.footballdb.com/players/oday-aboushi-abousod01"))
+    global players
+    #scrape game logs to build out a list of team objects (year,name)
+    url = f"http://pro-football-reference.com/players/{filtername(name)[0]}/{filtername(name)[1]}00/gamelog"
+    soup =  (gethtml(url))
+    logs = soup.find('table',{'id':'stats'}) #grabs the gameslog table: columns of interest : year, team
+    
+    #behold, the parsing 
+    teams = dict()
+    
+    for row in logs.find_all('tr'):
+        rowsdata = row.find_all('td')
+        row = [i.text for i in rowsdata]
+        #certain rows are not neccessary, this dismisses them
+        if(len(row)>5 and row[0]!=''):
+            teams[row[0]] =row[5]
+    return teams
+
+    
+    
+   
+    
+    
    
 def findnamecode(name):
     #this method checks if the name in question is actually at the first link, if not, checks next link
+    #important for edge case of people having the same name abbreviation, doesnt mean they are the exact same name
     pass
-#proof of concept, we can get down to just names :)
+
 def filtername(name):
     #helps get names in format so be searched in browser 
     ir = False
@@ -127,7 +149,8 @@ def filtername(name):
             break
         counter+=1
     firstlast = f"{name[counter+1:counter+5]}{name[0:2]}"      
-    return firstlast  
+    #tuple gives us last initial, and name abbreviation.
+    return name[counter+1],firstlast
     
     
 if __name__ == "__main__":

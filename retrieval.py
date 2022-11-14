@@ -103,7 +103,7 @@ def get_players(roster):
 def get_teams(name):
    global players
    #should give me a  monstrosity 
-   print(gethtml(f"http://pro-football-reference.com/players/{'S'}/{filtername(name)}00.htm"))
+   print(gethtml(f"https://www.footballdb.com/players/oday-aboushi-abousod01"))
    
 def findnamecode(name):
     #this method checks if the name in question is actually at the first link, if not, checks next link

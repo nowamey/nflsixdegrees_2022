@@ -11,6 +11,7 @@ data = pd.DataFrame(columns=COLS)
 playercount=0 
 player_dict = dict() #maps filtered strings to a list of players to be iterated
 players_list = []
+teams = set()
 #comm implemented to help pull from table that isnt directly embedded in the html
 comm = re.compile("<!--|-->")
 
@@ -22,7 +23,7 @@ FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patri
              "Atlanta Falcons","New Orleans Saints","Carolina Panthers","Minnesota Vikings","Green Bay Packers","Detroit Lions","Chicago Bears",
              "San Francisco 49ers","Arizona Cardinals","Los Angeles Rams","Seattle Seahawks"]
 class Player:
-    def __init__(self,player_name,position,weight,teamslist = []):
+    def __init__(self,player_name,position,weight,teamslist = [],url = None):
         self.player_name = player_name
         self.past_teams = []
     
@@ -30,6 +31,7 @@ class Team:
     def __init__(self,team_name,year):
         self.team_name = team_name
         self.year = year
+        players = []
 
 def gethtml(url):
     #gethtml grabs html document to parse through for any given site
@@ -53,6 +55,8 @@ def run_retrieval():
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster):
+    #gets all players into datastructure based on search term, assigns players an id in turn,
+    # so once requested we know which exact player url needs to be searched
     global player_dict
     global players_list
     rosterplayers = []
@@ -70,19 +74,14 @@ def get_players(roster):
                 if(player not in players_list):    
                     players_list.append(player)
                     player_dict[searchterm].append(player)
-            
-            #Taking into account undrafted players
-            row.append(FULLNAMES[teamcounter])
-            
-                
-            length = len(data)
-            
-            
-            if(len(row) == 13):        
-                if(row[0] != "Team Total"):
-                    data.loc[length] = row
-    #players.append
-    teamcounter+=1
+def assign_ids_teams():
+    global player_dict
+    
+    for term in player_dict.keys():
+        for player in players:
+            pass
+    pass
+   
     
 def get_teams(name):
     global players

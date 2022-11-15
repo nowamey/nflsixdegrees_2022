@@ -11,7 +11,7 @@ data = pd.DataFrame(columns=COLS)
 playercount=0 
 player_dict = dict() #maps filtered strings to a list of players to be iterated
 players_list = []
-teams = set()
+teams_map = dict() #map teamname,year, to list of players on the
 #comm implemented to help pull from table that isnt directly embedded in the html
 comm = re.compile("<!--|-->")
 
@@ -33,16 +33,18 @@ class Team:
     def __init__(self,team_name,year):
         self.team_name = team_name
         self.year = year
-        players = []
+        players = get_roster(team_name,year)
+    def __repr__(self):
+        return f"{self.team_name} {self.year}"
+
 
 def gethtml(url):
     #gethtml grabs html document to parse through for any given site
     page = requests.get(url)
-    print(page)
     soupdata = BeautifulSoup(comm.sub("",page.text),'lxml')
     return soupdata
-def getRoster(team,year):
-    #avoid rate limit from pfr 
+def get_roster(team,year):
+    #getroster retrieves the actual table for a team roster
     time.sleep(1)
     soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/{year}_roster.htm")
     roster = soup.find('table',{'id':'roster'})
@@ -93,14 +95,15 @@ def get_teams(name):
     logs = soup.find('table',{'id':'stats'}) #grabs the gameslog table: columns of interest : year, team
     
     #behold, the parsing 
-    teams = dict()
+    teams = set()
     
     for row in logs.find_all('tr'):
         rowsdata = row.find_all('td')
         row = [i.text for i in rowsdata]
         #certain rows are not neccessary, this dismisses them
         if(len(row)>5 and row[0]!=''):
-            teams[row[0]] =row[5]
+            
+            teams.add((row[5],row[0]))
     return teams
 
     

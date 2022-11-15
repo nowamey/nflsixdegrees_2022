@@ -9,7 +9,7 @@ import time
 COLS =["Number","Player","Age","Position","G","GS","Wt","Ht","College/Univ","Birthdate","yrs","Drafted","team"]
 data = pd.DataFrame(columns=COLS)
 playercount=0 
-player_dict = dict() #maps filtered strings to a list of players to be iterated
+players_dict = dict() #maps filtered strings to a list of players to be iterated
 players_list = []
 teams_map = dict() #map teamname,year, to list of players on the
 #comm implemented to help pull from table that isnt directly embedded in the html
@@ -23,12 +23,13 @@ FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patri
              "Atlanta Falcons","New Orleans Saints","Carolina Panthers","Minnesota Vikings","Green Bay Packers","Detroit Lions","Chicago Bears",
              "San Francisco 49ers","Arizona Cardinals","Los Angeles Rams","Seattle Seahawks"]
 class Player:
-    def __init__(self,player_name,position,weight,teamslist = [],url = None):
+    def __init__(self,player_name,position,teams_list,url):
         self.player_name = player_name
-        self.past_teams = []
+        self.position = position
+        self.teams_list = teams_list
+        self.url = url
     def __repr__(self):
-        return f"{self.player_name}\n{self.past_teams}"
-    
+        return f"({self.player_name}, {self.position},{self.weight},{self.teams_list},{self.url})"   
 class Team:
     def __init__(self,team_name,year):
         self.team_name = team_name
@@ -36,8 +37,6 @@ class Team:
         players = get_roster(team_name,year)
     def __repr__(self):
         return f"{self.team_name} {self.year}"
-
-
 def gethtml(url):
     #gethtml grabs html document to parse through for any given site
     page = requests.get(url)
@@ -59,38 +58,23 @@ def run_retrieval():
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster):
-    #gets all players into datastructure based on search term, assigns players an id in turn,
-    # so once requested we know which exact player url needs to be searched
-    global player_dict
+    #gets all active players into datastructure for search requests from front-end
+    global players_dict
     global players_list
-    rosterplayers = []
     for row in roster.find_all('tr'):
-            rowsdata = row.find_all('td')
-            row = [i.text for i in rowsdata]
-            
-            searchterm = filtername(row[0])
-            player = Player(row[0],row[2],row[5])
-            if(player_dict[searchterm] is None):
-                player_dict[searchterm] = []
-                player_dict[searchterm].append(player)
-            else:
-                #making sure we dont add players more than we need to
-                if(player not in players_list):    
-                    players_list.append(player)
-                    player_dict[searchterm].append(player)
-def assign_ids_teams():
-    global player_dict
-    
-    for term in player_dict.keys():
-        for player in players:
-            pass
-    pass
-   
-    
-def get_teams(name):
-    global players
-    #scrape game logs to build out a list of team objects (year,name)
-    url = f"http://pro-football-reference.com/players/{filtername(name)[0]}/{filtername(name)[1]}00/gamelog"
+        rowsdata = row.find_all('td')
+        links = row.find_all('a')
+        row = [i.text for i in rowsdata]
+        if(len(row)>0 and row[0]!="Team Total"):   
+            link = links[0].get('href')
+            name = row[0]
+            position = row[2]
+            url = f"http://pro-football-reference.com{link}/gamelog"
+            player = Player(name,position,get_teams(url),url)
+            players_dict[name] = player    
+def get_teams(url):
+    #get_teams retrieves and returns a set of all the teams the player has played with
+    time.sleep(1)
     soup =  (gethtml(url))
     logs = soup.find('table',{'id':'stats'}) #grabs the gameslog table: columns of interest : year, team
     
@@ -102,41 +86,9 @@ def get_teams(name):
         row = [i.text for i in rowsdata]
         #certain rows are not neccessary, this dismisses them
         if(len(row)>5 and row[0]!=''):
-            
             teams.add((row[5],row[0]))
     return teams
 
-    
-    
-   
-    
-    
-   
-def findnamecode(name):
-    #this method checks if the name in question is actually at the first link, if not, checks next link
-    #important for edge case of people having the same name abbreviation, doesnt mean they are the exact same name
-    pass
-
-def filtername(name):
-    #helps get names in format so be searched in browser 
-    ir = False
-    
-    firstlast = []
-    counter =0
-    for char in name:
-        if(char == "("):
-            ir = True
-            name = name[0:counter-1]
-            break
-        counter+=1
-    counter = 0
-    for char in name:
-        if (char == " "):
-            break
-        counter+=1
-    firstlast = f"{name[counter+1:counter+5]}{name[0:2]}"      
-    #tuple gives us last initial, and name abbreviation.
-    return name[counter+1],firstlast
     
     
 if __name__ == "__main__":

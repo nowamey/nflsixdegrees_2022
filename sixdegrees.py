@@ -22,15 +22,16 @@ position: abbreviated string of player position listed on the roster
 """
 import time
 import retrieval
-
+import json
 class SixDegrees:
 
     
     
     def __init__(self):
-        #attributes: players: dictionary: name: Player object with that name
-        #           players_list: list of all player objects currently in the nfl
-        data = retrieval.run_retrieval() #tuple holding all relevant data, will apply to the sixdegrees object
+        with open("playersdict.json","r") as f:
+            self.players_dict = json.read(f)
+        with open("teams_map.json","r") as f:
+            self.teams_map = json.read(f)
         
 
     def findpath(player_one,player_two):

@@ -5,6 +5,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 import time
+import json
 # this file is responsible for running all webscraping operations, and organizing information to be used by sixdegrees.py
 COLS =["Number","Player","Age","Position","G","GS","Wt","Ht","College/Univ","Birthdate","yrs","Drafted","team"]
 data = pd.DataFrame(columns=COLS)
@@ -44,17 +45,18 @@ def gethtml(url):
     return soupdata
 def get_roster(team,year):
     #getroster retrieves the actual table for a team roster
-    time.sleep(1)
+    time.sleep(3)
     soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/{year}_roster.htm")
     roster = soup.find('table',{'id':'roster'})
     return roster
 def run_retrieval():
     for team in TEAMS:
-        roster = getRoster(team,2022)
+        roster = get_roster(team,2022)
         get_players(roster)
-    return players_list
-
-    return data                        
+    with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/players_dict.json","w") as f:
+        json.dump(players_dict,f)
+    with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/teams_map.json","w") as f:
+        json.dump(teams_map,f)
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster):
@@ -71,10 +73,10 @@ def get_players(roster):
             position = row[2]
             url = f"http://pro-football-reference.com{link}/gamelog"
             player = Player(name,position,get_teams(url),url)
-            players_dict[name] = player    
+            players_dict[name] = player 
+            print(player.player_name)   
 def get_teams(url):
     #get_teams retrieves and returns a set of all the teams the player has played with
-    time.sleep(1)
     soup =  (gethtml(url))
     logs = soup.find('table',{'id':'stats'}) #grabs the gameslog table: columns of interest : year, team
     
@@ -90,10 +92,10 @@ def get_teams(url):
     return teams
 
     
-    
+     
 if __name__ == "__main__":
-    #run_retrieval()
-    print('ayeeeee')
+    run_retrieval()
+    
     
     
     

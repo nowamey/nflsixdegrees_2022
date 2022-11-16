@@ -24,13 +24,18 @@ FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patri
              "Atlanta Falcons","New Orleans Saints","Carolina Panthers","Minnesota Vikings","Green Bay Packers","Detroit Lions","Chicago Bears",
              "San Francisco 49ers","Arizona Cardinals","Los Angeles Rams","Seattle Seahawks"]
 class Player:
-    def __init__(self,player_name,position,teams_list,url):
+    def __init__(self,player_name,position,teams_list,url,active = False):
         self.player_name = player_name
         self.position = position
         self.teams_list = teams_list
         self.url = url
+
+        for team in self.teams_list:
+            if team[1] == '2022':
+                self.active = True
+
     def __repr__(self):
-        return f"({self.player_name}, {self.position},{self.weight},{self.teams_list},{self.url})"   
+        return f"({self.player_name}, {self.position},{self.teams_list},{self.url}, {self.active})"   
 class Team:
     def __init__(self,team_name,year):
         self.team_name = team_name
@@ -41,11 +46,12 @@ class Team:
 def gethtml(url):
     #gethtml grabs html document to parse through for any given site
     page = requests.get(url)
+    print(page)
     soupdata = BeautifulSoup(comm.sub("",page.text),'lxml')
     return soupdata
 def get_roster(team,year):
     #getroster retrieves the actual table for a team roster
-    time.sleep(3)
+    time.sleep(5)
     soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/{year}_roster.htm")
     roster = soup.find('table',{'id':'roster'})
     return roster
@@ -63,6 +69,7 @@ def get_players(roster):
     #gets all active players into datastructure for search requests from front-end
     global players_dict
     global players_list
+    time.sleep(5)
     for row in roster.find_all('tr'):
         rowsdata = row.find_all('td')
         links = row.find_all('a')

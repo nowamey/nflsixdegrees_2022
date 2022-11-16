@@ -56,24 +56,27 @@ def get_roster(team,year):
     roster = soup.find('table',{'id':'roster'})
     return roster
 def run_retrieval():
-    for team in TEAMS:
-        roster = get_roster(team,2022)
-        get_players(roster)
-    with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/players_dict.json","w") as f:
-        json.dump(players_dict,f)
-    with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/teams_map.json","w") as f:
-        json.dump(teams_map,f)
+    roster = get_roster('rav',2022)
+    get_players(roster)
+    print(players_dict)
+    print("\n\n\n")
+    print(teams_map)
+    #with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/players_dict.json","w") as f:
+    #    json.dump(players_dict,f)
+    #with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/teams_map.json","w") as f:
+    #    json.dump(teams_map,f)
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster):
     #gets all active players into datastructure for search requests from front-end
     global players_dict
     global players_list
-    time.sleep(5)
+    
     for row in roster.find_all('tr'):
         rowsdata = row.find_all('td')
         links = row.find_all('a')
         row = [i.text for i in rowsdata]
+        time.sleep(5)
         if(len(row)>0 and row[0]!="Team Total"):   
             link = links[0].get('href')
             name = row[0]

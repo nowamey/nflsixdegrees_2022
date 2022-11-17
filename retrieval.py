@@ -24,18 +24,24 @@ FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patri
              "Atlanta Falcons","New Orleans Saints","Carolina Panthers","Minnesota Vikings","Green Bay Packers","Detroit Lions","Chicago Bears",
              "San Francisco 49ers","Arizona Cardinals","Los Angeles Rams","Seattle Seahawks"]
 class Player:
-    def __init__(self,player_name,position,teams_list,url,active = False):
+    def __init__(self,player_name,position,teams_list,url):
         self.player_name = player_name
         self.position = position
         self.teams_list = teams_list
         self.url = url
-
+       
         for team in self.teams_list:
             if team[1] == '2022':
                 self.active = True
 
     def __repr__(self):
-        return f"({self.player_name}, {self.position},{self.teams_list},{self.url}, {self.active})"   
+        return f"({self.player_name}, {self.position},{self.teams_list},{self.url})"   
+    
+    def findpath(self,player_two):
+        """
+        """
+        
+      
 class Team:
     def __init__(self,team_name,year):
         self.team_name = team_name
@@ -100,11 +106,15 @@ def get_teams(url):
         if(len(row)>5 and row[0]!=''):
             teams.add((row[5],row[0]))
     return teams
-
     
      
 if __name__ == "__main__":
-    run_retrieval()
+    tyreek = Player("Tyreek Hill","Wr",[("mia","2020")],"")
+    teams_map[("mia","2020")] = [tyreek]
+    tua = Player("Tua Tagovailoa","QB",[("mia","2020")],"")
+    print(tua.findpath(tyreek))
+    #print(tua.teams_list)
+    #print(teams_map[tyreek.teams_list])
     
     
     

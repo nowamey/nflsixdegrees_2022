@@ -1,0 +1,7 @@
+for team in self.teams_list:
+            print(team)
+            if(player_two in teams_map[team]):
+                if(team[1] == "2022"):
+                    return "current teammates!!!1"
+                else:
+                    return "past teammates!"

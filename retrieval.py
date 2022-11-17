@@ -36,7 +36,8 @@ class Player:
 
     def __repr__(self):
         return f"({self.player_name}, {self.position},{self.teams_list},{self.url})"   
-    
+
+        
     def findpath(self,player_two):
         """
         """
@@ -62,15 +63,17 @@ def get_roster(team,year):
     roster = soup.find('table',{'id':'roster'})
     return roster
 def run_retrieval():
-    roster = get_roster('rav',2022)
-    get_players(roster)
-    print(players_dict)
-    print("\n\n\n")
-    print(teams_map)
-    #with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/players_dict.json","w") as f:
-    #    json.dump(players_dict,f)
-    #with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/teams_map.json","w") as f:
-    #    json.dump(teams_map,f)
+
+    for team in TEAMS:
+        roster = get_roster(team,2022)
+        get_players(roster)
+        print(players_dict)
+        print("\n\n\n")
+        print(teams_map)
+        with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/players_dict.json","w") as f:
+            json.dump(players_dict,f)
+        with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/teams_map.json","w") as f:
+            json.dump(teams_map,f)
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster):
@@ -89,7 +92,7 @@ def get_players(roster):
             position = row[2]
             url = f"http://pro-football-reference.com{link}/gamelog"
             player = Player(name,position,get_teams(url),url)
-            players_dict[name] = player 
+            players_dict[name] = player.__dict__ 
             print(player.player_name)   
 def get_teams(url):
     #get_teams retrieves and returns a set of all the teams the player has played with
@@ -105,16 +108,18 @@ def get_teams(url):
         #certain rows are not neccessary, this dismisses them
         if(len(row)>5 and row[0]!=''):
             teams.add((row[5],row[0]))
-    return teams
+    return list(teams)
     
      
 if __name__ == "__main__":
-    tyreek = Player("Tyreek Hill","Wr",[("mia","2020")],"")
-    teams_map[("mia","2020")] = [tyreek]
+    #tyreek = Player("Tyreek Hill","Wr",[("mia","2020")],"")
+    #teams_map[("mia","2020")] = [tyreek]
     tua = Player("Tua Tagovailoa","QB",[("mia","2020")],"")
-    print(tua.findpath(tyreek))
+    #print(tua.findpath(tyreek))
     #print(tua.teams_list)
     #print(teams_map[tyreek.teams_list])
+    run_retrieval()
+    
     
     
     

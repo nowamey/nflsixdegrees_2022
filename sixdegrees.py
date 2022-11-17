@@ -28,24 +28,25 @@ class SixDegrees:
     
     
     def __init__(self):
-        with open("playersdict.json","r") as f:
-            self.players_dict = json.read(f)
+        with open("players_dict.json","r") as f:
+            self.players_dict = json.load(f)
         with open("teams_map.json","r") as f:
-            self.teams_map = json.read(f)
+            self.teams_map = json.load(f)
         
 
     def findpath(player_one,player_two):
         """
         """
-    def run_menu():
+    def run_menu(self):
         print("Welcome to Six Degrees of the NFL! Please enter Two NFL players you would like to connect!")
         time.sleep(.2)
-        player1 = input("Please enter first player name: ")
-        player2 = input("Please enter second player name: ")
-        players = [player1,player2]
-        return players
+        player1 = self.players_dict[input("Please enter first player name: ")]
+        player2 = self.players_dict[input("Please enter second player name: ")]
+        return retrieval.Player.player
+
         
 
 if __name__ =="__main__":
     sixdegrees= SixDegrees()
-    sixdegrees.run_menu
+    #print(sixdegrees.players_dict)
+    print(sixdegrees.players_dict["Stefon Diggs"])

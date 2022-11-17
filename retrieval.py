@@ -40,8 +40,28 @@ class Player:
         
     def findpath(self,player_two):
         """
+        Search playersdict for the shortest path relating two connected players 
         """
+        queue = [self]
+        visited = set(self)
+    
+        while(queue):
+            curr = queue.pop(0)
+            #assuming these list comps just work for now 
+            if(curr not in visited):
+                if(curr == player_two):
+                    return("search complete! Theres a connection!")
+            visited.add(curr)
+
         
+            rosters = [teams_map[team] for team in self.teams_list]
+            neighbors = [player for player in [roster for roster in rosters]]
+
+            for neighbor in neighbors:
+                if(neighbor not in visited):
+                    queue.append(neighbor)
+        return("Search failed! no connection!")
+
       
 class Team:
     def __init__(self,team_name,year):
@@ -80,7 +100,7 @@ def get_players(roster):
     #gets all active players into datastructure for search requests from front-end
     global players_dict
     global players_list
-    
+    players = []
     for row in roster.find_all('tr'):
         rowsdata = row.find_all('td')
         links = row.find_all('a')
@@ -92,10 +112,14 @@ def get_players(roster):
             position = row[2]
             url = f"http://pro-football-reference.com{link}/gamelog"
             player = Player(name,position,get_teams(url),url)
+            if player not in players:
+                players.append(player)
             players_dict[name] = player.__dict__ 
             print(player.player_name)   
+    return players
 def get_teams(url):
     #get_teams retrieves and returns a set of all the teams the player has played with
+    global teams_map
     soup =  (gethtml(url))
     logs = soup.find('table',{'id':'stats'}) #grabs the gameslog table: columns of interest : year, team
     
@@ -107,7 +131,13 @@ def get_teams(url):
         row = [i.text for i in rowsdata]
         #certain rows are not neccessary, this dismisses them
         if(len(row)>5 and row[0]!=''):
-            teams.add((row[5],row[0]))
+            team = str(row[5].lower())
+            year = row[0]
+            teams.add((team,year))
+            if (team,year) not in teams_map:
+                roster = get_roster(team,year)
+                print(team,year)
+                teams_map[(team,year)] = get_players(roster)
     return list(teams)
     
      

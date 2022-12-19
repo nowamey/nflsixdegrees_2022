@@ -84,18 +84,18 @@ def get_roster(team,year):
     roster = soup.find('table',{'id':'roster'})
     return roster
 def run_retrieval():
-    for team in TEAMS:
-        year =2022
-        while(year<=2022):
+    year =2022
+    while(year>=2004):
+        for team in TEAMS:
             roster = get_roster(team,year)
             get_players(roster,team,year)
             print(players_dict)
             print(teams_map)
-            year+=1
             with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/players_dict.json","w") as f:
                 json.dump(players_dict,f)
             with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/teams_map.json","w") as f:
                 json.dump(teams_map,f)
+        year-=1    
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster,team,year):
@@ -107,10 +107,10 @@ def get_players(roster,team,year):
         rowsdata = row.find_all('td')
         links = row.find_all('a')
         row = [i.text for i in rowsdata]
-        time.sleep(5)
+        time.sleep(3)
         if(len(row)>0 and row[0]!="Team Total"):   
             link = links[0].get('href')
-            name = row[0]
+            name = clean_name(row[0])
             position = row[2]
             url = f"http://pro-football-reference.com{link}/gamelog"
             print(url)
@@ -119,7 +119,7 @@ def get_players(roster,team,year):
                 players.append(player)
             players_dict[name] = player.__dict__ 
             print(player.player_name)   
-    teams_map[(team,year)]= players
+    teams_map[f"{team} {year}"]= [player.__dict__ for player in players]
 def get_teams(url):
     #get_teams retrieves and returns a set of all the teams the player has played with
     global teams_map
@@ -139,7 +139,14 @@ def get_teams(url):
             teams.add(tuple([team,year]))
     return list(teams)
     
-     
+def clean_name(name):
+    index =0
+    for letter in name:
+        if(letter == '('):
+            return name[0:index-1]
+        index+=1
+    return name
+            
 if __name__ == "__main__":
     run_retrieval()
     

@@ -7,7 +7,7 @@ import re
 import time
 import json
 # this file is responsible for running all webscraping operations, and organizing information to be used by sixdegrees.py
-COLS =["Number","Player","Age","Position","G","GS","Wt","Ht","College/Univ","Birthdate","yrs","Drafted","team"]
+COLS =["playerid","number","player_name",'team',"age",'pos',"games","games_started","weight","height","college","birthdate","yrs","av","drafted"]
 data = pd.DataFrame(columns=COLS)
 playercount=0 
 players_dict = dict() #maps filtered strings to a list of players to be iterated
@@ -80,47 +80,48 @@ def gethtml(url):
 def get_roster(team,year):
     #getroster retrieves the actual table for a team roster
     time.sleep(5)
-    soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/{year}_roster.htm")
+    soup = gethtml(f"https://www.pro-football-reference.com/teams/{team}/{year}_roster.htm")   
     roster = soup.find('table',{'id':'roster'})
     return roster
 def run_retrieval():
+    global data
     year =2022
     while(year>=2004):
         for team in TEAMS:
             roster = get_roster(team,year)
             get_players(roster,team,year)
-            print(players_dict)
-            print(teams_map)
-            with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/players_dict.json","w") as f:
-                json.dump(players_dict,f)
-            with open(r"c:/Users/nowam/Documents/Github/nflsixdegrees_2022/teams_map.json","w") as f:
-                json.dump(teams_map,f)
         year-=1    
+    data.to_csv('nfl_players_data.csv')
+
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster,team,year):
     #gets all active players into datastructure for search requests from front-end
-    global players_dict
-    global players_list
-    players = []
+    global data
+    
     for row in roster.find_all('tr'):
+        number = get_num(row.find('th'))
         rowsdata = row.find_all('td')
         links = row.find_all('a')
         row = [i.text for i in rowsdata]
-        time.sleep(3)
         if(len(row)>0 and row[0]!="Team Total"):   
             link = links[0].get('href')
-            name = clean_name(row[0])
-            position = row[2]
-            url = f"http://pro-football-reference.com{link}/gamelog"
-            print(url)
-            player = Player(name,position,get_teams(url),url)
-            if player not in players:
-                players.append(player)
-            players_dict[name] = player.__dict__ 
-            print(player.player_name)   
-    teams_map[f"{team} {year}"]= [player.__dict__ for player in players]
+            row.insert(0,get_id(link))
+            row.insert(2,f'{team }{year}')
+            row.insert(1,number)
+            if(len(row) == 16):
+                row.pop()
+            data.loc[len(data.index)] = row
+def get_id(link):
+    print(link)
+    exp = r".+\/(?P<id>.+)\."
+    return re.search(exp,link).group('id')
+def get_num(num):
+    exp = r">(?P<num>\d+)<"   
+    return re.search(exp,num).group('num')         
+        
 def get_teams(url):
+    ##not used anymore for right now.
     #get_teams retrieves and returns a set of all the teams the player has played with
     global teams_map
     soup =  (gethtml(url))
@@ -136,10 +137,10 @@ def get_teams(url):
         if(len(row)>5 and row[0]!=''):
             team = str(row[5].lower())
             year = row[0]
-            teams.add(tuple([team,year]))
-    return list(teams)
-    
+            teams.add(f'{team}{year}')
+    return list(teams)    
 def clean_name(name):
+    #not used anymore for now
     index =0
     for letter in name:
         if(letter == '('):

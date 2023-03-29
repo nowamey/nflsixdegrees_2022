@@ -1,0 +1,1 @@
+['Josh Allen', 'buf2022', 'http://pro-football-reference.com/players/A/AlleJo02.htm/gamelog', '26', 'QB', '16', '16', '237', '6-5', 'Wyoming', '5/21/1996', '4', '20', 'Buffalo Bills / 1st / 7th pick / 2018']

@@ -62,8 +62,6 @@ class Player:
                 if(neighbor not in visited):
                     queue.append(neighbor)
         return("Search failed! no connection!")
-
-      
 class Team:
     def __init__(self,team_name,year):
         self.team_name = team_name
@@ -92,7 +90,6 @@ def run_retrieval():
             get_players(roster,team,year)
         year-=1    
     data.to_csv('nfl_players_data.csv')
-
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster,team,year):
@@ -100,26 +97,29 @@ def get_players(roster,team,year):
     global data
     
     for row in roster.find_all('tr'):
-        number = get_num(row.find('th'))
+        number = row.find('th')
         rowsdata = row.find_all('td')
         links = row.find_all('a')
         row = [i.text for i in rowsdata]
         if(len(row)>0 and row[0]!="Team Total"):   
+            number = get_num(str(number))
             link = links[0].get('href')
             row.insert(0,get_id(link))
             row.insert(2,f'{team }{year}')
             row.insert(1,number)
             if(len(row) == 16):
                 row.pop()
+            print(row)
             data.loc[len(data.index)] = row
 def get_id(link):
-    print(link)
     exp = r".+\/(?P<id>.+)\."
     return re.search(exp,link).group('id')
 def get_num(num):
     exp = r">(?P<num>\d+)<"   
-    return re.search(exp,num).group('num')         
-        
+    if re.search(exp,num)!= None:
+        return re.search(exp,num).group('num')
+    else:
+        return 'NaN'               
 def get_teams(url):
     ##not used anymore for right now.
     #get_teams retrieves and returns a set of all the teams the player has played with
@@ -146,8 +146,7 @@ def clean_name(name):
         if(letter == '('):
             return name[0:index-1]
         index+=1
-    return name
-            
+    return name           
 if __name__ == "__main__":
     run_retrieval()
     

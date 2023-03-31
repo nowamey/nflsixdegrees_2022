@@ -84,7 +84,7 @@ def get_roster(team,year):
 def run_retrieval():
     global data
     year =2022
-    while(year>=2004):
+    while(year>=2022):
         for team in TEAMS:
             roster = get_roster(team,year)
             get_players(roster,team,year)

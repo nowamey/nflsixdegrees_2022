@@ -34,19 +34,19 @@ class Graph:
             raise ValueError(f"Node {origin} does not exist.")
         elif self.nodeExists(target) == False:
             raise ValueError(f"Node {target} does not exist.")
-
-
+        elif origin == target: # already at target
+            return [origin]
+        
         queue = deque([(origin, [origin])]) # store tuples that contain (node, path)
         visited = set([origin])
 
         while queue:
             curr, path = queue.popleft()
 
-            if curr == target:
-                return path
-
             for neighbor in self.getNodeNeighbors(curr):
                 if neighbor in visited: continue
+                if neighbor == target: return path + [neighbor] # no need to continue iterating if found
+
                 visited.add(neighbor)
                 queue.append((neighbor, path + [neighbor]))
 

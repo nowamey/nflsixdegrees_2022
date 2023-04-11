@@ -1,12 +1,3 @@
-# temp file for defining a demo graph
-
-# implication of this graph is that each value will
-# only exist once-- these means that if 'Steph Currry' was
-# a node, there could be no other 'Steph Curry'.
-
-# to combat this problem, it would be beneficial to use an id as
-# the value of a node
-
 from collections import deque
 import networkx as nx
 
@@ -74,28 +65,6 @@ class Graph:
         return s[:-1] # chops off the last newline
 
 
-# simplified for sake of example
-exampleTeam0 = {
-    "name": "Derps",
-    "year": 2022,
-    "players": [
-        "will slice",
-        "med grivel",
-        "noah ramey",
-        "donal heidenblad"
-    ]
-}
-exampleTeam1 = {
-    "name": "Derps",
-    "year": 2023,
-    "players": [
-        "will slice",
-        "boss baby",
-        "mario",
-        "luigi"
-    ]
-}
-
 # populate graph
 def addPlayersToGraph(graph, players):
     numPlayers = len(players)
@@ -108,32 +77,3 @@ def addPlayersToGraph(graph, players):
         for j in range(i + 1, numPlayers):
             player1 = players[j]
             graph.addNeighbor(player0, player1)
-
-graph = Graph()
-
-import pandas as pd
-import json
-
-# fill graph
-end_year = 2021
-for year in range(2002, end_year + 1):
-    df = pd.read_csv(f"player_data/nfl_players_data_{year}.csv")
-
-    teams = {}
-
-    # add each player to team
-    for row in df.iterrows():
-        content = row[1]
-        team = content["team"]
-
-        if teams.get(team) == None:
-            teams[team] = []
-            
-        teams[team].append(content["playerid"])
-
-    # fill in teams
-    for team in teams:
-        addPlayersToGraph(graph, teams[team])
-
-
-graph.to_graphml()

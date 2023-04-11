@@ -10,13 +10,13 @@ import json
 COLS =["playerid","number","player_name",'team',"age",'pos',"games","games_started","weight","height","college","birthdate","yrs","av","drafted"]
 #data = pd.DataFrame(columns=COLS)
 playercount=0 
-players_dict = dict() #maps filtered strings to a list of players to be iterated
+players_dict = dict() #maps filtered strings to a list of players tso be iterated
 players_list = []
 teams_map = dict() #map teamname,year, to list of players on the
 #comm implemented to help pull from table that isnt directly embedded in the html
 comm = re.compile("<!--|-->")
 
-TEAMS = ["buf","mia","nyj","nwe","oti","clt","jax","rav","cin","cle","pit","kan","sdg","den","rai",
+TEAMS = ["buf","mia","nyj","nwe","oti","clt","jax","htx","rav","cin","cle","pit","kan","sdg","den","rai",
         "phi","dal","nyg","was","tam","atl","nor","car","min","gnb","det","chi","sfo","crd","ram","sea"]
 FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patriots","Tennessee Titans","Indianapolis Colts","Jacksonville Jaguars",
              "Houston Texans","Baltimore Ravens","Cincinatti Bengals","Cleveland Browns","Pittsburgh Steelers","Kansas City Chiefs","Los Angeles Chargers",
@@ -82,9 +82,12 @@ def get_roster(team,year):
     roster = soup.find('table',{'id':'roster'})
     return roster
 def run_retrieval():
-    data = pd.DataFrame(columns=COLS)
-    year =2001
-    while(year==2001):
+    year =2022
+    while(year>=2001):
+        data = pd.DataFrame(columns=COLS)
+        if year == 2001:
+            #texans did not exist as a team in 2001, taking that into account.
+            TEAMS.remove('htx')
         for team in TEAMS:
             roster = get_roster(team,year)
             data  = pd.concat([data,get_players(roster,team,year)])

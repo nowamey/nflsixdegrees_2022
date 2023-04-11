@@ -8,7 +8,7 @@ import time
 import json
 # this file is responsible for running all webscraping operations, and organizing information to be used by sixdegrees.py
 COLS =["playerid","number","player_name",'team',"age",'pos',"games","games_started","weight","height","college","birthdate","yrs","av","drafted"]
-data = pd.DataFrame(columns=COLS)
+#data = pd.DataFrame(columns=COLS)
 playercount=0 
 players_dict = dict() #maps filtered strings to a list of players to be iterated
 players_list = []
@@ -16,7 +16,7 @@ teams_map = dict() #map teamname,year, to list of players on the
 #comm implemented to help pull from table that isnt directly embedded in the html
 comm = re.compile("<!--|-->")
 
-TEAMS = ["buf","mia","nyj","nwe","oti","clt","jax","htx","rav","cin","cle","pit","kan","sdg","den","rai",
+TEAMS = ["buf","mia","nyj","nwe","oti","clt","jax","rav","cin","cle","pit","kan","sdg","den","rai",
         "phi","dal","nyg","was","tam","atl","nor","car","min","gnb","det","chi","sfo","crd","ram","sea"]
 FULLNAMES = ["Buffalo Bills","Miami Dolphins","New York Jets","New England Patriots","Tennessee Titans","Indianapolis Colts","Jacksonville Jaguars",
              "Houston Texans","Baltimore Ravens","Cincinatti Bengals","Cleveland Browns","Pittsburgh Steelers","Kansas City Chiefs","Los Angeles Chargers",
@@ -82,19 +82,19 @@ def get_roster(team,year):
     roster = soup.find('table',{'id':'roster'})
     return roster
 def run_retrieval():
-    global data
-    year =2022
-    while(year>=2022):
+    data = pd.DataFrame(columns=COLS)
+    year =2001
+    while(year==2001):
         for team in TEAMS:
             roster = get_roster(team,year)
-            get_players(roster,team,year)
+            data  = pd.concat([data,get_players(roster,team,year)])
+        data.to_csv(f'nfl_players_data_{year}.csv')    
         year-=1    
-    data.to_csv('nfl_players_data.csv')
 def get_csv():    
     data.to_csv(r"C:\Users\nowam\Documents\GitHub\nflsixdegrees_2022\player_data.csv",index= False)
 def get_players(roster,team,year):
     #gets all active players into datastructure for search requests from front-end
-    global data
+    data = pd.DataFrame(columns=COLS)
     
     for row in roster.find_all('tr'):
         number = row.find('th')
@@ -111,6 +111,7 @@ def get_players(roster,team,year):
                 row.pop()
             print(row)
             data.loc[len(data.index)] = row
+    return data
 def get_id(link):
     exp = r".+\/(?P<id>.+)\."
     return re.search(exp,link).group('id')

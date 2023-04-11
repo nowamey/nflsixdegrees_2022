@@ -8,13 +8,17 @@
 # the value of a node
 
 from collections import deque
+import networkx as nx
 
 class Graph:
     def __init__(self):
         self.connections = {}
+        self.size = 0
 
     def addNode(self, value):
+        if self.nodeExists(value) == True: return
         self.connections[value] = set() # can only have one connection to each other value
+        self.size += 1
 
     def nodeExists(self, value):
         return self.connections.get(value) != None
@@ -52,6 +56,15 @@ class Graph:
 
         return None
     
+    def to_graphml(self):
+        graph = nx.Graph()
+
+        for node, neighbors in self.connections.items():
+            for neighbor in neighbors:
+                graph.add_edge(node, neighbor)
+
+        nx.write_graphml(graph, "football_connections.graphml")
+
     # makes debugging a little easier
     # prints as an adjacency list
     def __str__(self):
@@ -72,7 +85,6 @@ exampleTeam0 = {
         "donal heidenblad"
     ]
 }
-
 exampleTeam1 = {
     "name": "Derps",
     "year": 2023,
@@ -99,29 +111,29 @@ def addPlayersToGraph(graph, players):
 
 graph = Graph()
 
-addPlayersToGraph(graph, exampleTeam0["players"])
-addPlayersToGraph(graph, exampleTeam1["players"])
+import pandas as pd
+import json
 
-# prints current adjacency list
-# print(graph)
+# fill graph
+end_year = 2021
+for year in range(2002, end_year + 1):
+    df = pd.read_csv(f"player_data/nfl_players_data_{year}.csv")
 
-# bfs to find closest connection between 'noah ramey' and 'mario'
-path = graph.bfs("noah ramey", "mario")
-print(path)
+    teams = {}
 
-# throw an error when looking for a node that doesn't exist
-try:
-    path = graph.bfs("luigi", "princess peach")
-except ValueError:
-    print("uh oh! encountered an error!")
+    # add each player to team
+    for row in df.iterrows():
+        content = row[1]
+        team = content["team"]
+
+        if teams.get(team) == None:
+            teams[team] = []
+            
+        teams[team].append(content["playerid"])
+
+    # fill in teams
+    for team in teams:
+        addPlayersToGraph(graph, teams[team])
 
 
-
-# return none when there's no path
-graph.addNode("derper")
-path = graph.bfs("derper", "mario")
-print(path)
-
-# we're going to have to hope that each player has an id attached to their name. otherwise, we will have to
-# create a hash based on the player's name and birthday (and hope there's no duplicates lul).
-
+graph.to_graphml()

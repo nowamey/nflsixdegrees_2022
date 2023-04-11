@@ -30,7 +30,7 @@ class Graph:
         elif self.nodeExists(target) == False:
             raise ValueError(f"Node {target} does not exist.")
         elif origin == target: # already at target
-            return [origin]
+            return []
         
         queue = deque([(origin, [origin])]) # store tuples that contain (node, path)
         visited = set([origin])

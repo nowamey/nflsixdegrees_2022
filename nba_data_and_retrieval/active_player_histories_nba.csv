@@ -1,0 +1,1358 @@
+,player_id,player_name,team,start,end
+0,817057,DeMar DeRozan,Chicago Bulls,2021-08-02,
+1,817057,DeMar DeRozan,San Antonio Spurs,2018-07-17,2021-08-02
+2,817057,DeMar DeRozan,Toronto Raptors,2009-06-24,2018-07-17
+0,817218,Zach LaVine,Chicago Bulls,2017-06-22,
+1,817218,Zach LaVine,Minnesota Timberwolves,2014-06-25,2017-06-22
+0,1133917,Carlik Jones,Chicago Bulls,2023-02-14,
+1,1133917,Carlik Jones,Texas Legends,2022-01-10,2023-02-14
+2,1133917,Carlik Jones,Denver Nuggets,2022-01-02,2022-01-10
+0,885217,Lonzo Ball,Chicago Bulls,2021-08-01,
+1,885217,Lonzo Ball,New Orleans Pelicans,2019-06-14,2021-08-01
+2,885217,Lonzo Ball,Los Angeles Lakers,2017-06-21,2019-06-14
+0,817423,Nikola Vučević,Chicago Bulls,2021-03-24,
+1,817423,Nikola Vučević,Orlando Magic,2012-08-09,2021-03-24
+2,817423,Nikola Vučević,Philadelphia 76ers,2011-06-22,2012-08-09
+0,1092881,Patrick Williams,Chicago Bulls,2020-12-02,
+0,1133911,Ayo Dosunmu,Chicago Bulls,2021-07-28,
+0,816989,Patrick Beverley,Chicago Bulls,2023-02-20,
+1,816989,Patrick Beverley,Orlando Magic,2023-02-08,2023-02-20
+2,816989,Patrick Beverley,Los Angeles Lakers,2022-08-24,2023-02-08
+3,816989,Patrick Beverley,Utah Jazz,2022-06-30,2022-08-24
+4,816989,Patrick Beverley,Minnesota Timberwolves,2021-08-16,2022-06-30
+5,816989,Patrick Beverley,Memphis Grizzlies,2021-08-15,2021-08-16
+6,816989,Patrick Beverley,Los Angeles Clippers,2017-06-28,2021-08-15
+7,816989,Patrick Beverley,Houston Rockets,2013-01-06,2017-06-28
+0,989015,Coby White,Chicago Bulls,2019-06-19,
+0,855801,Alex Caruso,Chicago Bulls,2021-08-02,
+1,855801,Alex Caruso,Los Angeles Lakers,2017-07-12,2021-08-02
+0,954825,Javonte Green,Chicago Bulls,2021-03-24,
+1,954825,Javonte Green,Boston Celtics,2019-07-25,2021-03-24
+0,855985,Derrick Jones Jr.,Chicago Bulls,2021-08-26,
+1,855985,Derrick Jones Jr.,Portland Trail Blazers,2020-11-22,2021-08-26
+2,855985,Derrick Jones Jr.,Miami Heat,2017-12-30,2020-11-22
+3,855985,Derrick Jones Jr.,Phoenix Suns,2016-09-25,2017-12-30
+0,817069,Andre Drummond,Chicago Bulls,2022-06-30,
+1,817069,Andre Drummond,Brooklyn Nets,2022-02-09,2022-06-30
+2,817069,Andre Drummond,Philadelphia 76ers,2021-08-02,2022-02-09
+3,817069,Andre Drummond,Los Angeles Lakers,2021-03-28,2021-08-02
+4,817069,Andre Drummond,Cleveland Cavaliers,2020-02-05,2021-03-28
+5,817069,Andre Drummond,Detroit Pistons,2012-06-27,2020-02-05
+1181319,1181319,Dalen Terry,Chicago Bulls,,
+0,885251,Tony Bradley,Chicago Bulls,2021-08-18,
+1,885251,Tony Bradley,Oklahoma City Thunder,2021-03-24,2021-08-18
+2,885251,Tony Bradley,Philadelphia 76ers,2020-11-22,2021-03-24
+3,885251,Tony Bradley,Detroit Pistons,2020-11-21,2020-11-22
+4,885251,Tony Bradley,Utah Jazz,2017-06-22,2020-11-21
+5,885251,Tony Bradley,Los Angeles Lakers,2017-06-21,2017-06-22
+0,963001,Marko Simonović,Chicago Bulls,2021-08-17,
+1,963001,Marko Simonović,Chicago Bulls,2020-11-18,2021-08-17
+0,1133914,Malcolm Hill,Chicago Bulls,2022-01-13,
+0,816960,Giannis Antetokounmpo,Milwaukee Bucks,2013-07-29,
+0,817159,Jrue Holiday,Milwaukee Bucks,2020-11-16,
+1,817159,Jrue Holiday,New Orleans Pelicans,2013-07-11,2020-11-16
+2,817159,Jrue Holiday,Philadelphia 76ers,2009-06-24,2013-07-11
+0,817236,Brook Lopez,Milwaukee Bucks,2018-07-16,
+1,817236,Brook Lopez,Los Angeles Lakers,2017-06-22,2018-07-16
+2,817236,Brook Lopez,Brooklyn Nets,2008-06-25,2017-06-22
+0,817329,Bobby Portis,Milwaukee Bucks,2020-11-20,
+1,817329,Bobby Portis,New York Knicks,2019-06-30,2020-11-20
+2,817329,Bobby Portis,Washington Wizards,2019-02-06,2019-06-30
+3,817329,Bobby Portis,Chicago Bulls,2015-06-24,2019-02-06
+0,817265,Khris Middleton,Milwaukee Bucks,2013-07-30,
+1,817265,Khris Middleton,Detroit Pistons,2012-08-14,2013-07-30
+0,940814,Grayson Allen,Milwaukee Bucks,2021-01-31,
+1,940814,Grayson Allen,Memphis Grizzlies,2019-07-05,2021-01-31
+2,940814,Grayson Allen,Utah Jazz,2018-07-01,2019-07-05
+0,817039,Pat Connaughton,Milwaukee Bucks,2018-08-07,
+1,817039,Pat Connaughton,Portland Trail Blazers,2015-07-08,2018-08-07
+0,940801,Jevon Carter,Milwaukee Bucks,2022-02-23,
+1,940801,Jevon Carter,Brooklyn Nets,2021-08-05,2022-02-23
+2,940801,Jevon Carter,Phoenix Suns,2019-07-06,2021-08-05
+3,940801,Jevon Carter,Memphis Grizzlies,2018-06-20,2019-07-06
+0,817175,Joe Ingles,Milwaukee Bucks,2022-06-30,
+1,817175,Joe Ingles,Portland Trail Blazers,2022-02-08,2022-06-30
+2,817175,Joe Ingles,Utah Jazz,2014-10-26,2022-02-08
+0,817047,Jae Crowder,Milwaukee Bucks,2023-02-08,
+1,817047,Jae Crowder,Phoenix Suns,2020-11-20,2023-02-08
+2,817047,Jae Crowder,Miami Heat,2020-02-05,2020-11-20
+3,817047,Jae Crowder,Memphis Grizzlies,2019-07-05,2020-02-05
+4,817047,Jae Crowder,Utah Jazz,2018-02-07,2019-07-05
+5,817047,Jae Crowder,Cleveland Cavaliers,2017-08-21,2018-02-07
+6,817047,Jae Crowder,Boston Celtics,2014-09-17,2017-08-21
+7,817047,Jae Crowder,Dallas Mavericks,2012-07-19,2014-09-17
+0,817068,Goran Dragić,Milwaukee Bucks,2023-03-04,
+1,817068,Goran Dragić,Chicago Bulls,2022-06-30,2023-03-04
+2,817068,Goran Dragić,Brooklyn Nets,2022-02-21,2022-06-30
+3,817068,Goran Dragić,San Antonio Spurs,2022-02-09,2022-02-21
+4,817068,Goran Dragić,Toronto Raptors,2021-08-06,2022-02-09
+5,817068,Goran Dragić,Miami Heat,2015-02-18,2021-08-06
+6,817068,Goran Dragić,Phoenix Suns,2008-09-21,2015-02-18
+7,817068,Goran Dragić,Union Olimpija Ljubljana,2006-06-18,2008-09-21
+0,817249,Wesley Matthews,Milwaukee Bucks,2021-12-02,
+1,817249,Wesley Matthews,Los Angeles Lakers,2020-11-21,2021-12-02
+2,817249,Wesley Matthews,Milwaukee Bucks,2019-07-01,2020-11-21
+3,817249,Wesley Matthews,Indiana Pacers,2019-02-09,2019-07-01
+4,817249,Wesley Matthews,New York Knicks,2019-01-30,2019-02-09
+5,817249,Wesley Matthews,Dallas Mavericks,2015-07-08,2019-01-30
+6,817249,Wesley Matthews,Portland Trail Blazers,2010-07-09,2015-07-08
+7,817249,Wesley Matthews,Utah Jazz,2009-08-31,2010-07-09
+1206073,1206073,MarJon Beauchamp,Milwaukee Bucks,,
+0,817230,Meyers Leonard,Milwaukee Bucks,2023-02-20,
+1,817230,Meyers Leonard,Oklahoma City Thunder,2021-03-17,2023-02-20
+2,817230,Meyers Leonard,Miami Heat,2019-07-05,2021-03-17
+3,817230,Meyers Leonard,Portland Trail Blazers,2012-07-12,2019-07-05
+1179862,1179862,AJ Green,Milwaukee Bucks,,
+0,816961,Thanasis Antetokounmpo,Milwaukee Bucks,2019-07-06,
+1,816961,Thanasis Antetokounmpo,New York Knicks,2014-06-25,2019-07-06
+0,861608,Luka Dončić,Dallas Mavericks,2018-06-25,
+1,861608,Luka Dončić,Atlanta Hawks,2018-06-20,2018-06-25
+0,817177,Kyrie Irving,Dallas Mavericks,2023-02-04,
+1,817177,Kyrie Irving,Brooklyn Nets,2019-06-30,2023-02-04
+2,817177,Kyrie Irving,Boston Celtics,2017-08-21,2019-06-30
+3,817177,Kyrie Irving,Cleveland Cavaliers,2011-12-09,2017-08-21
+0,817132,Tim Hardaway Jr.,Dallas Mavericks,2019-01-30,
+1,817132,Tim Hardaway Jr.,New York Knicks,2017-07-25,2019-01-30
+2,817132,Tim Hardaway Jr.,Atlanta Hawks,2015-06-24,2017-07-25
+3,817132,Tim Hardaway Jr.,New York Knicks,2013-07-07,2015-06-24
+0,817455,Christian Wood,Dallas Mavericks,2022-06-15,
+1,817455,Christian Wood,Houston Rockets,2020-11-22,2022-06-15
+2,817455,Christian Wood,Detroit Pistons,2019-07-16,2020-11-22
+3,817455,Christian Wood,New Orleans Pelicans,2019-03-19,2019-07-16
+0,817012,Reggie Bullock,Dallas Mavericks,2021-08-05,
+1,817012,Reggie Bullock,New York Knicks,2019-06-30,2021-08-05
+2,817012,Reggie Bullock,Los Angeles Lakers,2019-02-05,2019-06-30
+3,817012,Reggie Bullock,Detroit Pistons,2015-07-08,2019-02-05
+4,817012,Reggie Bullock,Phoenix Suns,2015-01-14,2015-07-08
+5,817012,Reggie Bullock,Los Angeles Clippers,2013-06-26,2015-01-14
+0,1092940,Josh Green,Dallas Mavericks,2020-12-02,
+0,861655,Maximilian Kleber,Dallas Mavericks,2017-07-12,
+0,817331,Dwight Powell,Dallas Mavericks,2014-12-17,
+1,817331,Dwight Powell,Boston Celtics,2014-09-24,2014-12-17
+1206072,1206072,Jaden Hardy,Dallas Mavericks,,
+0,817160,Justin Holiday,Dallas Mavericks,2023-02-14,
+1,817160,Justin Holiday,Houston Rockets,2023-02-08,2023-02-14
+2,817160,Justin Holiday,Atlanta Hawks,2022-06-30,2023-02-08
+3,817160,Justin Holiday,Sacramento Kings,2022-02-07,2022-06-30
+4,817160,Justin Holiday,Indiana Pacers,2019-07-30,2022-02-07
+5,817160,Justin Holiday,Memphis Grizzlies,2019-01-03,2019-07-30
+6,817160,Justin Holiday,Chicago Bulls,2017-07-09,2019-01-03
+7,817160,Justin Holiday,New York Knicks,2016-06-22,2017-07-09
+8,817160,Justin Holiday,Chicago Bulls,2016-02-17,2016-06-22
+9,817160,Justin Holiday,Atlanta Hawks,2015-07-08,2016-02-17
+10,817160,Justin Holiday,Golden State Warriors,2014-07-20,2015-07-08
+11,817160,Justin Holiday,Utah Jazz,2013-09-29,2014-07-20
+12,817160,Justin Holiday,Philadelphia 76ers,2013-07-14,2013-09-29
+13,817160,Justin Holiday,Cleveland Cavaliers,2012-07-13,2013-07-14
+14,817160,Justin Holiday,Okapi Aalstar,2011-08-16,2012-07-13
+1134025,1134025,McKinley Wright IV,Dallas Mavericks,,
+0,846965,Davis Bertans,Dallas Mavericks,2022-02-09,
+1,846965,Davis Bertans,Washington Wizards,2019-07-05,2022-02-09
+2,846965,Davis Bertans,San Antonio Spurs,2016-07-03,2019-07-05
+0,885224,Frank Ntilikina,Dallas Mavericks,2021-10-02,
+1,885224,Frank Ntilikina,New York Knicks,2017-07-21,2021-10-02
+0,817280,Markieff Morris,Dallas Mavericks,2023-02-04,
+1,817280,Markieff Morris,Miami Heat,2021-08-03,2023-02-04
+2,817280,Markieff Morris,Los Angeles Lakers,2020-02-22,2021-08-03
+3,817280,Markieff Morris,Detroit Pistons,2019-07-03,2020-02-22
+4,817280,Markieff Morris,Oklahoma City Thunder,2019-02-06,2019-07-03
+5,817280,Markieff Morris,Washington Wizards,2016-02-17,2019-02-06
+6,817280,Markieff Morris,Phoenix Suns,2011-06-22,2016-02-17
+0,817258,JaVale McGee,Dallas Mavericks,2022-06-30,
+1,817258,JaVale McGee,Phoenix Suns,2021-08-15,2022-06-30
+2,817258,JaVale McGee,Denver Nuggets,2021-03-24,2021-08-15
+3,817258,JaVale McGee,Cleveland Cavaliers,2020-11-21,2021-03-24
+4,817258,JaVale McGee,Los Angeles Lakers,2018-07-09,2020-11-21
+5,817258,JaVale McGee,Golden State Warriors,2016-09-15,2018-07-09
+6,817258,JaVale McGee,Dallas Mavericks,2015-08-12,2016-09-15
+7,817258,JaVale McGee,Philadelphia 76ers,2015-02-18,2015-08-12
+8,817258,JaVale McGee,Denver Nuggets,2012-03-14,2015-02-18
+9,817258,JaVale McGee,Washington Wizards,2008-07-08,2012-03-14
+1392408,1392408,A.J. Lawson,Dallas Mavericks,,
+0,957958,Theo Pinson,Dallas Mavericks,2021-12-19,
+1,957958,Theo Pinson,Boston Celtics,2021-10-08,2021-12-19
+2,957958,Theo Pinson,New York Knicks,2021-01-17,2021-10-08
+3,957958,Theo Pinson,Westchester Knicks,2020-06-25,2021-01-17
+0,988643,Chris Silva,Miami Heat,2021-12-30,
+1,988643,Chris Silva,Minnesota Timberwolves,2021-09-19,2021-12-30
+2,988643,Chris Silva,Sacramento Kings,2021-03-24,2021-09-19
+0,987558,Kevin Porter Jr.,Houston Rockets,2021-01-20,
+1,987558,Kevin Porter Jr.,Cleveland Cavaliers,2019-07-02,2021-01-20
+2,987558,Kevin Porter Jr.,Milwaukee Bucks,2019-06-19,2019-07-02
+1178599,1178599,Jabari Smith Jr.,Houston Rockets,,
+0,1133822,Alperen Sengun,Houston Rockets,2021-07-28,
+0,1092924,Kenyon Martin Jr.,Houston Rockets,2020-12-02,
+0,817428,John Wall,Houston Rockets,2023-02-08,
+1,817428,John Wall,Los Angeles Clippers,2022-06-30,2023-02-08
+2,817428,John Wall,Houston Rockets,2020-12-02,2022-06-30
+3,817428,John Wall,Washington Wizards,2010-06-23,2020-12-02
+0,1092887,Jae'Sean Tate,Houston Rockets,2020-12-02,
+1178696,1178696,Tari Eason,Houston Rockets,,
+0,1133934,Daishen Nix,Houston Rockets,2021-08-24,
+1178819,1178819,Tyty Washington,Houston Rockets,,
+0,1133853,Josh Christopher,Houston Rockets,2021-07-28,
+0,905364,Usman Garuba,Houston Rockets,2021-07-29,
+0,817244,Boban Marjanovic,Houston Rockets,2022-06-15,
+1,817244,Boban Marjanovic,Dallas Mavericks,2019-07-02,2022-06-15
+2,817244,Boban Marjanovic,Philadelphia 76ers,2019-02-05,2019-07-02
+3,817244,Boban Marjanovic,Los Angeles Clippers,2018-01-29,2019-02-05
+4,817244,Boban Marjanovic,Detroit Pistons,2016-07-11,2018-01-29
+5,817244,Boban Marjanovic,San Antonio Spurs,2015-07-16,2016-07-11
+0,817208,Frank Kaminsky,Houston Rockets,2023-02-08,
+1,817208,Frank Kaminsky,Phoenix Suns,2020-12-22,2023-02-08
+2,817208,Frank Kaminsky,Sacramento Kings,2020-12-02,2020-12-22
+3,817208,Frank Kaminsky,Phoenix Suns,2019-07-01,2020-12-02
+4,817208,Frank Kaminsky,Charlotte Hornets,2015-06-24,2019-07-01
+1178691,1178691,Darius Days,Houston Rockets,,
+1385033,1385033,Trevor Hudgins,Houston Rockets,,
+0,816970,D.J. Augustin,Los Angeles Lakers,2022-02-28,
+1,816970,D.J. Augustin,Houston Rockets,2021-03-18,2022-02-28
+2,816970,D.J. Augustin,Milwaukee Bucks,2020-11-22,2021-03-18
+3,816970,D.J. Augustin,Orlando Magic,2016-07-04,2020-11-22
+4,816970,D.J. Augustin,Denver Nuggets,2016-02-17,2016-07-04
+5,816970,D.J. Augustin,Oklahoma City Thunder,2015-02-18,2016-02-17
+6,816970,D.J. Augustin,Detroit Pistons,2014-07-14,2015-02-18
+7,816970,D.J. Augustin,Chicago Bulls,2013-07-21,2014-07-14
+8,816970,D.J. Augustin,Indiana Pacers,2012-07-12,2013-07-21
+9,816970,D.J. Augustin,Charlotte Hornets,2008-07-07,2012-07-12
+0,885244,De'Aaron Fox,Sacramento Kings,2017-06-21,
+0,846968,Domantas Sabonis,Sacramento Kings,2022-02-07,
+1,846968,Domantas Sabonis,Indiana Pacers,2017-07-02,2022-02-07
+2,846968,Domantas Sabonis,Oklahoma City Thunder,2016-06-22,2017-07-02
+3,846968,Domantas Sabonis,Unicaja Málaga,2013-07-31,2016-06-22
+4,846968,Domantas Sabonis,Clinicas Rincon,2012-07-31,2013-07-31
+0,816977,Harrison Barnes,Sacramento Kings,2019-02-05,
+1,816977,Harrison Barnes,Dallas Mavericks,2016-07-08,2019-02-05
+2,816977,Harrison Barnes,Golden State Warriors,2012-06-27,2016-07-08
+0,940788,Kevin Huerter,Sacramento Kings,2022-06-30,
+1,940788,Kevin Huerter,Atlanta Hawks,2018-06-30,2022-06-30
+1180986,1180986,Keegan Murray,Sacramento Kings,,
+0,885258,Malik Monk,Sacramento Kings,2022-06-30,
+1,885258,Malik Monk,Los Angeles Lakers,2021-08-02,2022-06-30
+2,885258,Malik Monk,Charlotte Hornets,2017-06-21,2021-08-02
+0,817240,Trey Lyles,Sacramento Kings,2022-02-09,
+1,817240,Trey Lyles,Detroit Pistons,2021-08-05,2022-02-09
+2,817240,Trey Lyles,San Antonio Spurs,2019-06-30,2021-08-05
+3,817240,Trey Lyles,Denver Nuggets,2017-06-21,2019-06-30
+4,817240,Trey Lyles,Utah Jazz,2015-06-24,2017-06-21
+0,1132132,Davion Mitchell,Sacramento Kings,2021-07-28,
+0,989005,Terence Davis,Sacramento Kings,2021-03-25,
+1,989005,Terence Davis,Toronto Raptors,2019-07-10,2021-03-25
+2,989005,Terence Davis,Denver Nuggets,2019-06-19,2019-07-10
+0,940778,Chimezie Metu,Sacramento Kings,2021-04-12,
+1,940778,Chimezie Metu,Sacramento Kings,2020-12-02,2021-04-12
+2,940778,Chimezie Metu,San Antonio Spurs,2018-06-20,2020-12-02
+0,1133995,Kessler Edwards,Brooklyn Nets,2021-07-28,
+0,817163,Richaun Holmes,Sacramento Kings,2019-06-30,
+1,817163,Richaun Holmes,Phoenix Suns,2018-07-19,2019-06-30
+2,817163,Richaun Holmes,Philadelphia 76ers,2015-06-24,2018-07-19
+0,1391264,KZ Okpala,Sacramento Kings,2022-09-13,
+1,1391264,KZ Okpala,Oklahoma City Thunder,2022-02-08,2022-09-13
+2,1391264,KZ Okpala,Miami Heat,2019-07-06,2022-02-08
+3,1391264,KZ Okpala,Phoenix Suns,2019-06-19,2019-07-06
+0,817060,Matthew Dellavedova,Melbourne United,2021-07-08,
+1,817060,Matthew Dellavedova,Cleveland Cavaliers,2018-12-06,2021-07-08
+2,817060,Matthew Dellavedova,Milwaukee Bucks,2016-07-06,2018-12-06
+3,817060,Matthew Dellavedova,Cleveland Cavaliers,2013-09-11,2016-07-06
+0,817228,Alex Len,Sacramento Kings,2021-08-12,
+1,817228,Alex Len,Washington Wizards,2021-01-22,2021-08-12
+2,817228,Alex Len,Toronto Raptors,2020-12-02,2021-01-22
+3,817228,Alex Len,Sacramento Kings,2020-02-05,2020-12-02
+4,817228,Alex Len,Atlanta Hawks,2018-08-02,2020-02-05
+5,817228,Alex Len,Phoenix Suns,2013-06-26,2018-08-02
+1412282,1412282,PJ Dozier,Sacramento Kings,,
+0,1179991,Keon Ellis,Sacramento Kings,2023-01-15,
+0,1132138,Neemias Queta,Sacramento Kings,2021-07-28,
+0,940841,Deonte Burton,Oklahoma City Thunder,2018-07-06,
+0,817232,Damian Lillard,Portland Trail Blazers,2012-07-12,
+0,940767,Anfernee Simons,Portland Trail Blazers,2018-06-30,
+0,817119,Jerami Grant,Portland Trail Blazers,2022-06-21,
+1,817119,Jerami Grant,Detroit Pistons,2020-11-22,2022-06-21
+2,817119,Jerami Grant,Denver Nuggets,2019-07-06,2020-11-22
+3,817119,Jerami Grant,Oklahoma City Thunder,2017-02-23,2019-07-06
+4,817119,Jerami Grant,Philadelphia 76ers,2014-06-25,2017-02-23
+0,1092928,Skylar Mays,Atlanta Hawks,2020-12-02,
+0,817300,Jusuf Nurkić,Portland Trail Blazers,2017-02-23,
+1,817300,Jusuf Nurkić,Denver Nuggets,2014-06-25,2017-02-23
+0,987931,Cam Reddish,Portland Trail Blazers,2023-02-08,
+1,987931,Cam Reddish,New York Knicks,2022-07-05,2023-02-08
+2,987931,Cam Reddish,New York Knicks,2022-01-12,2022-07-05
+0,817453,Justise Winslow,Portland Trail Blazers,2022-02-03,
+1,817453,Justise Winslow,Los Angeles Clippers,2021-08-07,2022-02-03
+2,817453,Justise Winslow,Memphis Grizzlies,2020-02-05,2021-08-07
+3,817453,Justise Winslow,Miami Heat,2015-06-25,2020-02-05
+1178822,1178822,Shaedon Sharpe,Portland Trail Blazers,,
+0,957172,Drew Eubanks,Portland Trail Blazers,2022-03-10,
+1,957172,Drew Eubanks,Toronto Raptors,2022-02-09,2022-03-10
+1133800,1133800,Trendon Watford,Portland Trail Blazers,,
+1178996,1178996,Jeenathan Williams,Portland Trail Blazers,,
+0,988678,Nassir Little,Portland Trail Blazers,2019-06-19,
+0,940782,Kevin Knox,Portland Trail Blazers,2023-02-08,
+1,940782,Kevin Knox,Atlanta Hawks,2022-07-05,2023-02-08
+2,940782,Kevin Knox,Atlanta Hawks,2022-01-12,2022-07-05
+3,940782,Kevin Knox,New York Knicks,2018-06-20,2022-01-12
+0,989085,Matisse Thybulle,Portland Trail Blazers,2023-02-08,
+1,989085,Matisse Thybulle,Philadelphia 76ers,2019-07-17,2023-02-08
+2,989085,Matisse Thybulle,Boston Celtics,2019-06-19,2019-07-17
+1183180,1183180,Justin Minaya,Portland Trail Blazers,,
+0,1133158,Olivier Sarr,Portland Trail Blazers,2023-02-24,
+1,1133158,Olivier Sarr,Oklahoma City Thunder,2021-12-26,2023-02-24
+0,1134001,Keon Johnson,Portland Trail Blazers,2022-02-03,
+1,1134001,Keon Johnson,Los Angeles Clippers,2021-07-28,2022-02-03
+1183277,1183277,Jabari Walker,Portland Trail Blazers,,
+1180127,1180127,John Butler,Portland Trail Blazers,,
+0,846963,Ryan Arcidiacono,Portland Trail Blazers,2023-02-08,
+1,846963,Ryan Arcidiacono,New York Knicks,2022-01-05,2023-02-08
+2,846963,Ryan Arcidiacono,Boston Celtics,2021-09-27,2022-01-05
+3,846963,Ryan Arcidiacono,Chicago Bulls,2017-07-24,2021-09-27
+4,846963,Ryan Arcidiacono,San Antonio Spurs,2016-07-13,2017-07-24
+0,1133781,Greg Brown III,Portland Trail Blazers,2021-07-28,
+1485076,1485076,Jeenathan Williams,Portland Trail Blazers,,
+1003734,1003734,Ibou Dianko Badji,Portland Trail Blazers,,
+0,987102,Ja Morant,Memphis Grizzlies,2019-06-19,
+0,1092872,Desmond Bane,Memphis Grizzlies,2020-11-24,
+1,1092872,Desmond Bane,Boston Celtics,2020-11-17,2020-11-24
+0,940785,Jaren Jackson Jr.,Memphis Grizzlies,2018-06-20,
+0,885254,Dillon Brooks,Memphis Grizzlies,2017-06-22,
+1,885254,Dillon Brooks,Houston Rockets,2017-06-21,2017-06-22
+0,816938,Steven Adams,Memphis Grizzlies,2021-08-06,
+1,816938,Steven Adams,New Orleans Pelicans,2020-11-20,2021-08-06
+2,816938,Steven Adams,Oklahoma City Thunder,2013-07-11,2020-11-20
+0,817204,Tyus Jones,Memphis Grizzlies,2019-07-09,
+1,817204,Tyus Jones,Minnesota Timberwolves,2015-06-24,2019-07-09
+0,885256,Luke Kennard,Memphis Grizzlies,2023-02-08,
+1,885256,Luke Kennard,Los Angeles Clippers,2020-11-21,2023-02-08
+2,885256,Luke Kennard,Detroit Pistons,2017-06-21,2020-11-21
+0,1133988,Santi Aldama,Memphis Grizzlies,2021-07-28,
+0,987934,Brandon Clarke,Memphis Grizzlies,2019-06-19,
+0,1092873,Xavier Tillman,Memphis Grizzlies,2020-11-18,
+1,1092873,Xavier Tillman,Sacramento Kings,2020-11-17,2020-11-18
+988875,988875,John Konchar,Memphis Grizzlies,,
+1178033,1178033,David Roddy,Memphis Grizzlies,,
+0,1134024,Ziaire Williams,Memphis Grizzlies,2021-07-28,
+1179536,1179536,Jake Laravia,Memphis Grizzlies,,
+1181091,1181091,Kenneth Lofton,Memphis Grizzlies,,
+1180179,1180179,Kennedy Chandler,Memphis Grizzlies,,
+1178858,1178858,Vince Williams,Memphis Grizzlies,,
+0,817074,Kevin Durant,Phoenix Suns,2023-02-08,
+1,817074,Kevin Durant,Brooklyn Nets,2019-06-30,2023-02-08
+2,817074,Kevin Durant,Golden State Warriors,2016-07-04,2019-06-30
+3,817074,Kevin Durant,Oklahoma City Thunder,2007-06-27,2016-07-04
+0,817000,Devin Booker,Phoenix Suns,2015-07-12,
+0,940812,Deandre Ayton,Phoenix Suns,2018-07-01,
+0,817315,Chris Paul,Phoenix Suns,2020-11-15,
+1,817315,Chris Paul,Oklahoma City Thunder,2019-07-11,2020-11-15
+2,817315,Chris Paul,Houston Rockets,2017-06-28,2019-07-11
+3,817315,Chris Paul,Los Angeles Clippers,2011-12-13,2017-06-28
+4,817315,Chris Paul,New Orleans Pelicans,2005-06-27,2011-12-13
+0,905846,Torrey Craig,Phoenix Suns,2022-02-09,
+1,905846,Torrey Craig,Indiana Pacers,2021-08-19,2022-02-09
+2,905846,Torrey Craig,Phoenix Suns,2021-03-17,2021-08-19
+3,905846,Torrey Craig,Milwaukee Bucks,2020-11-22,2021-03-17
+4,905846,Torrey Craig,Denver Nuggets,2017-06-27,2020-11-22
+0,817317,Cameron Payne,Phoenix Suns,2020-06-29,
+1,817317,Cameron Payne,Toronto Raptors,2019-07-24,2020-06-29
+2,817317,Cameron Payne,Cleveland Cavaliers,2019-01-05,2019-07-24
+3,817317,Cameron Payne,Chicago Bulls,2017-02-23,2019-01-05
+4,817317,Cameron Payne,Oklahoma City Thunder,2015-07-09,2017-02-23
+0,817352,Terrence Ross,Orlando Magic,2017-02-23,
+1,817352,Terrence Ross,Toronto Raptors,2012-06-27,2017-02-23
+0,851371,Damion Lee,Phoenix Suns,2022-07-01,
+1,851371,Damion Lee,Golden State Warriors,2018-07-13,2022-07-01
+0,940768,Landry Shamet,Phoenix Suns,2021-07-28,
+1,940768,Landry Shamet,Brooklyn Nets,2020-11-21,2021-07-28
+2,940768,Landry Shamet,Los Angeles Clippers,2019-02-05,2020-11-21
+3,940768,Landry Shamet,Philadelphia 76ers,2018-06-30,2019-02-05
+0,940774,Josh Okogie,Phoenix Suns,2022-06-30,
+1,940774,Josh Okogie,Minnesota Timberwolves,2018-06-20,2022-06-30
+0,817429,TJ Warren,Phoenix Suns,2023-02-08,
+1,817429,TJ Warren,Brooklyn Nets,2022-07-04,2023-02-08
+2,817429,TJ Warren,Indiana Pacers,2019-06-19,2022-07-04
+3,817429,TJ Warren,Phoenix Suns,2014-06-25,2019-06-19
+0,1092952,Saben Lee,Phoenix Suns,2023-01-15,
+1,1092952,Saben Lee,Detroit Pistons,2020-12-02,2023-01-15
+0,954950,Jock Landale,Phoenix Suns,2022-06-30,
+1,954950,Jock Landale,San Antonio Spurs,2021-08-03,2022-06-30
+2,954950,Jock Landale,Melbourne United,2020-12-09,2021-08-03
+3,954950,Jock Landale,Kauno Žalgiris,2019-05-19,2020-12-09
+1133932,1133932,Duane Washington Jr.,Phoenix Suns,,
+0,988996,Darius Bazley,Phoenix Suns,2023-02-08,
+1,988996,Darius Bazley,Oklahoma City Thunder,2019-06-21,2023-02-08
+2,988996,Darius Bazley,Memphis Grizzlies,2019-06-20,2019-06-21
+3,988996,Darius Bazley,Utah Jazz,2019-06-19,2019-06-20
+1133767,1133767,Ish Wainright,Phoenix Suns,,
+0,816990,Bismack Biyombo,Phoenix Suns,2021-12-31,
+1,816990,Bismack Biyombo,Charlotte Hornets,2018-07-06,2021-12-31
+2,816990,Bismack Biyombo,Orlando Magic,2016-07-04,2018-07-06
+3,816990,Bismack Biyombo,Toronto Raptors,2015-07-17,2016-07-04
+4,816990,Bismack Biyombo,Charlotte Hornets,2011-09-18,2015-07-17
+0,1180100,Adonis Arms,Phoenix Suns,2023-02-14,
+0,817199,Nikola Jokic,Denver Nuggets,2015-07-27,
+0,846917,Jamal Murray,Denver Nuggets,2016-06-22,
+0,940773,Michael Porter Jr.,Denver Nuggets,2018-07-02,
+0,817114,Aaron Gordon,Denver Nuggets,2021-03-24,
+1,817114,Aaron Gordon,Orlando Magic,2014-06-25,2021-03-24
+0,817020,Kentavious Caldwell-Pope,Denver Nuggets,2022-06-28,
+1,817020,Kentavious Caldwell-Pope,Washington Wizards,2021-07-29,2022-06-28
+2,817020,Kentavious Caldwell-Pope,Los Angeles Lakers,2017-07-12,2021-07-29
+3,817020,Kentavious Caldwell-Pope,Detroit Pistons,2013-06-26,2017-07-12
+0,940805,Bruce Brown,Denver Nuggets,2022-06-30,
+1,940805,Bruce Brown,Brooklyn Nets,2020-11-16,2022-06-30
+2,940805,Bruce Brown,Detroit Pistons,2018-07-05,2020-11-16
+0,817180,Reggie Jackson,Denver Nuggets,2023-02-14,
+1,817180,Reggie Jackson,Charlotte Hornets,2023-02-08,2023-02-14
+2,817180,Reggie Jackson,Los Angeles Clippers,2020-02-17,2023-02-08
+3,817180,Reggie Jackson,Detroit Pistons,2015-02-18,2020-02-17
+4,817180,Reggie Jackson,Oklahoma City Thunder,2011-06-22,2015-02-18
+0,885216,Thomas Bryant,Denver Nuggets,2023-02-08,
+1,885216,Thomas Bryant,Los Angeles Lakers,2022-06-30,2023-02-08
+2,885216,Thomas Bryant,Washington Wizards,2018-07-01,2022-06-30
+3,885216,Thomas Bryant,Los Angeles Lakers,2017-07-21,2018-07-01
+4,885216,Thomas Bryant,Utah Jazz,2017-06-21,2017-07-21
+0,817126,Jeff Green,Denver Nuggets,2021-08-11,
+1,817126,Jeff Green,Brooklyn Nets,2020-11-22,2021-08-11
+2,817126,Jeff Green,Houston Rockets,2019-08-17,2020-11-22
+3,817126,Jeff Green,Utah Jazz,2019-07-02,2019-08-17
+4,817126,Jeff Green,Washington Wizards,2018-07-09,2019-07-02
+5,817126,Jeff Green,Cleveland Cavaliers,2017-06-30,2018-07-09
+6,817126,Jeff Green,Orlando Magic,2016-07-04,2017-06-30
+7,817126,Jeff Green,Los Angeles Clippers,2016-02-17,2016-07-04
+8,817126,Jeff Green,Memphis Grizzlies,2015-01-11,2016-02-17
+9,817126,Jeff Green,Boston Celtics,2011-02-24,2015-01-11
+10,817126,Jeff Green,Oklahoma City Thunder,2007-06-27,2011-02-24
+0,817205,DeAndre Jordan,Denver Nuggets,2022-06-30,
+1,817205,DeAndre Jordan,Philadelphia 76ers,2022-03-03,2022-06-30
+2,817205,DeAndre Jordan,Los Angeles Lakers,2021-09-08,2022-03-03
+3,817205,DeAndre Jordan,Brooklyn Nets,2019-06-30,2021-09-08
+4,817205,DeAndre Jordan,New York Knicks,2019-01-30,2019-06-30
+5,817205,DeAndre Jordan,Dallas Mavericks,2018-06-30,2019-01-30
+6,817205,DeAndre Jordan,Los Angeles Clippers,2008-06-25,2018-06-30
+1182729,1182729,Christian Braun,Denver Nuggets,,
+0,885211,Vlatko Čančar,Denver Nuggets,2019-07-31,
+1,885211,Vlatko Čančar,San Pablo Burgos,2018-06-12,2019-07-31
+2,885211,Vlatko Čančar,Denver Nuggets,2017-06-21,2018-06-12
+3,885211,Vlatko Čančar,KK Mega Soccerbet,2016-06-29,2017-06-21
+4,885211,Vlatko Čančar,KK Cedevita Olimpija,2015-04-15,2016-06-29
+0,1092914,Zeke Nnaji,Denver Nuggets,2020-12-02,
+1178030,1178030,Peyton Watson,Denver Nuggets,,
+0,817376,Ish Smith,Denver Nuggets,2022-06-28,
+1,817376,Ish Smith,Washington Wizards,2022-02-09,2022-06-28
+2,817376,Ish Smith,Charlotte Hornets,2021-08-03,2022-02-09
+3,817376,Ish Smith,Washington Wizards,2019-07-07,2021-08-03
+4,817376,Ish Smith,Detroit Pistons,2016-07-08,2019-07-07
+5,817376,Ish Smith,Philadelphia 76ers,2015-12-23,2016-07-08
+6,817376,Ish Smith,New Orleans Pelicans,2015-09-24,2015-12-23
+7,817376,Ish Smith,Philadelphia 76ers,2015-02-18,2015-09-24
+8,817376,Ish Smith,Oklahoma City Thunder,2014-07-18,2015-02-18
+9,817376,Ish Smith,Phoenix Suns,2013-08-28,2014-07-18
+10,817376,Ish Smith,Houston Rockets,2010-08-22,2013-08-28
+1184816,1184816,Jackson Thomas White,Denver Nuggets,,
+0,1178405,Collin Gillespie,Denver Nuggets,2023-02-14,
+0,940794,Shai Gilgeous-Alexander,Oklahoma City Thunder,2019-07-05,
+1,940794,Shai Gilgeous-Alexander,Los Angeles Clippers,2018-07-02,2019-07-05
+2,940794,Shai Gilgeous-Alexander,Charlotte Hornets,2018-06-20,2018-07-02
+0,1133812,Josh Giddey,Oklahoma City Thunder,2021-07-28,
+1178085,1178085,Jalen Williams,Oklahoma City Thunder,,
+989021,989021,Luguentz Dort,Oklahoma City Thunder,,
+0,957474,Kenrich Williams,Oklahoma City Thunder,2020-12-02,
+0,972550,Aleksej Pokuševski,Oklahoma City Thunder,2020-11-20,
+1,972550,Aleksej Pokuševski,Minnesota Timberwolves,2020-11-19,2020-11-20
+0,1092943,Isaiah Joe,Oklahoma City Thunder,2022-10-14,
+1,1092943,Isaiah Joe,Philadelphia 76ers,2020-12-02,2022-10-14
+0,1133847,Tre Mann,Oklahoma City Thunder,2021-07-28,
+0,1133815,Aaron Wiggins,Oklahoma City Thunder,2021-07-28,
+0,1133825,Jeremiah Robinson-Earl,Oklahoma City Thunder,2021-07-28,
+1178575,1178575,Jaylin Williams,Oklahoma City Thunder,,
+0,846947,Dario Šarić,Oklahoma City Thunder,2023-02-08,
+1,846947,Dario Šarić,Phoenix Suns,2019-06-20,2023-02-08
+2,846947,Dario Šarić,Minnesota Timberwolves,2018-11-09,2019-06-20
+3,846947,Dario Šarić,Philadelphia 76ers,2016-07-14,2018-11-09
+4,846947,Dario Šarić,Anadolu Efes Istanbul,2014-06-23,2016-07-14
+5,846947,Dario Šarić,KK Cibona,2012-10-31,2014-06-23
+6,846947,Dario Šarić,KK Zagreb,2011-07-31,2012-10-31
+1191132,1191132,Ousmane Dieng,Oklahoma City Thunder,,
+0,1136397,Jared Butler,Utah Jazz,2021-07-29,
+1,1136397,Jared Butler,New Orleans Pelicans,2021-07-28,2021-07-29
+0,1182205,Lindy Waters III,Oklahoma City Thunder,2022-02-10,
+0,885243,Justin Jackson,Oklahoma City Thunder,2023-02-08,
+1,885243,Justin Jackson,Phoenix Suns,2022-01-03,2023-02-08
+2,885243,Justin Jackson,Boston Celtics,2021-12-18,2022-01-03
+3,885243,Justin Jackson,Milwaukee Bucks,2021-04-20,2021-12-18
+4,885243,Justin Jackson,Oklahoma City Thunder,2020-11-26,2021-04-20
+5,885243,Justin Jackson,Dallas Mavericks,2019-02-06,2020-11-26
+6,885243,Justin Jackson,Sacramento Kings,2017-06-22,2019-02-06
+7,885243,Justin Jackson,Portland Trail Blazers,2017-06-21,2017-06-22
+0,1181394,Chet Holmgren,Oklahoma City Thunder,2022-06-23,
+0,1092944,Tyrese Haliburton,Indiana Pacers,2022-02-07,
+1,1092944,Tyrese Haliburton,Sacramento Kings,2020-12-02,2022-02-07
+0,846905,Buddy Hield,Indiana Pacers,2022-02-07,
+1,846905,Buddy Hield,Sacramento Kings,2017-02-23,2022-02-07
+2,846905,Buddy Hield,New Orleans Pelicans,2016-06-22,2017-02-23
+0,817414,Myles Turner,Indiana Pacers,2015-06-24,
+1181316,1181316,Bennedict Mathurin,Indiana Pacers,,
+1181383,1181383,Andrew Nembhard,Indiana Pacers,,
+0,1092913,Aaron Nesmith,Indiana Pacers,2022-06-30,
+1,1092913,Aaron Nesmith,Boston Celtics,2020-12-02,2022-06-30
+0,823344,TJ McConnell,Indiana Pacers,2019-07-03,
+1,823344,TJ McConnell,Philadelphia 76ers,2015-09-26,2019-07-03
+0,993675,Jordan Nwora,Indiana Pacers,2023-02-08,
+1,993675,Jordan Nwora,Milwaukee Bucks,2020-12-03,2023-02-08
+0,1092897,Jalen Smith,Indiana Pacers,2022-02-09,
+1,1092897,Jalen Smith,Phoenix Suns,2020-12-02,2022-02-09
+0,1133920,Chris Duarte,Indiana Pacers,2021-07-28,
+0,817154,George Hill,Indiana Pacers,2023-02-08,
+1,817154,George Hill,Milwaukee Bucks,2021-08-04,2023-02-08
+2,817154,George Hill,Philadelphia 76ers,2021-03-24,2021-08-04
+3,817154,George Hill,Oklahoma City Thunder,2020-12-02,2021-03-24
+4,817154,George Hill,Milwaukee Bucks,2018-12-06,2020-12-02
+5,817154,George Hill,Cleveland Cavaliers,2018-02-07,2018-12-06
+6,817154,George Hill,Sacramento Kings,2017-07-04,2018-02-07
+7,817154,George Hill,Utah Jazz,2016-07-04,2017-07-04
+8,817154,George Hill,Indiana Pacers,2011-06-22,2016-07-04
+9,817154,George Hill,San Antonio Spurs,2008-09-22,2011-06-22
+0,1133916,Isaiah Jackson,Indiana Pacers,2021-07-28,
+0,989900,Oshae Brissett,Indiana Pacers,2021-04-01,
+0,861455,Daniel Theis,Indiana Pacers,2022-06-30,
+1,861455,Daniel Theis,Boston Celtics,2022-02-09,2022-06-30
+2,861455,Daniel Theis,Houston Rockets,2021-08-06,2022-02-09
+3,861455,Daniel Theis,Chicago Bulls,2021-03-24,2021-08-06
+4,861455,Daniel Theis,Boston Celtics,2017-06-30,2021-03-24
+0,817172,Serge Ibaka,Indiana Pacers,2023-02-08,
+1,817172,Serge Ibaka,Milwaukee Bucks,2022-02-09,2023-02-08
+2,817172,Serge Ibaka,Los Angeles Clippers,2020-11-22,2022-02-09
+3,817172,Serge Ibaka,Toronto Raptors,2017-02-23,2020-11-22
+4,817172,Serge Ibaka,Orlando Magic,2016-07-04,2017-02-23
+5,817172,Serge Ibaka,Oklahoma City Thunder,2009-06-30,2016-07-04
+6,817172,Serge Ibaka,ICL Manresa,2008-06-30,2009-06-30
+7,817172,Serge Ibaka,Oklahoma City Thunder,2008-06-25,2008-06-30
+1189206,1189206,Trevelin Queen,Indiana Pacers,,
+0,817191,James Johnson,Brooklyn Nets,2021-08-05,
+1,817191,James Johnson,New Orleans Pelicans,2021-03-25,2021-08-05
+2,817191,James Johnson,Dallas Mavericks,2020-11-21,2021-03-25
+3,817191,James Johnson,Oklahoma City Thunder,2020-11-20,2020-11-21
+4,817191,James Johnson,Minnesota Timberwolves,2020-02-05,2020-11-20
+5,817191,James Johnson,Miami Heat,2017-11-16,2020-02-05
+6,817191,James Johnson,Toronto Raptors,2014-07-16,2017-11-16
+7,817191,James Johnson,Memphis Grizzlies,2013-12-15,2014-07-16
+8,817191,James Johnson,Rio Grande Valley Vipers,2013-11-15,2013-12-15
+9,817191,James Johnson,Atlanta Hawks,2013-09-29,2013-11-15
+10,817191,James Johnson,Sacramento Kings,2012-06-15,2013-09-29
+11,817191,James Johnson,Toronto Raptors,2011-02-01,2012-06-15
+12,817191,James Johnson,Chicago Bulls,2009-07-27,2011-02-01
+0,1133928,Terry Taylor,Indiana Pacers,2023-02-24,
+1179821,1179821,Kendall Brown,Indiana Pacers,,
+0,817081,Joel Embiid,Philadelphia 76ers,2014-08-25,
+0,817133,James Harden,Philadelphia 76ers,2022-02-09,
+1,817133,James Harden,Brooklyn Nets,2021-01-13,2022-02-09
+2,817133,James Harden,Houston Rockets,2012-10-30,2021-01-13
+3,817133,James Harden,Oklahoma City Thunder,2009-06-24,2012-10-30
+0,1092926,Tyrese Maxey,Philadelphia 76ers,2020-12-02,
+0,817141,Tobias Harris,Philadelphia 76ers,2019-02-05,
+1,817141,Tobias Harris,Los Angeles Clippers,2018-01-29,2019-02-05
+2,817141,Tobias Harris,Detroit Pistons,2016-02-15,2018-01-29
+3,817141,Tobias Harris,Orlando Magic,2013-02-20,2016-02-15
+4,817141,Tobias Harris,Milwaukee Bucks,2011-06-22,2013-02-20
+0,940779,De'Anthony Melton,Philadelphia 76ers,2022-06-23,
+1,940779,De'Anthony Melton,Memphis Grizzlies,2019-07-06,2022-06-23
+2,940779,De'Anthony Melton,Phoenix Suns,2018-08-30,2019-07-06
+3,940779,De'Anthony Melton,Houston Rockets,2018-06-20,2018-08-30
+0,1000050,Louis King,Sacramento Kings,2021-04-30,
+0,989009,Jalen McDaniels,Philadelphia 76ers,2023-02-08,
+1,989009,Jalen McDaniels,Charlotte Hornets,2019-06-19,2023-02-08
+0,940777,Shake Milton,Philadelphia 76ers,2018-06-30,
+1,940777,Shake Milton,Dallas Mavericks,2018-06-20,2018-06-30
+0,817412,PJ Tucker,Philadelphia 76ers,2022-06-30,
+1,817412,PJ Tucker,Miami Heat,2021-08-06,2022-06-30
+2,817412,PJ Tucker,Milwaukee Bucks,2021-03-17,2021-08-06
+3,817412,PJ Tucker,Houston Rockets,2017-07-01,2021-03-17
+4,817412,PJ Tucker,Toronto Raptors,2017-02-23,2017-07-01
+5,817412,PJ Tucker,Phoenix Suns,2012-07-31,2017-02-23
+6,817412,PJ Tucker,Brose Baskets Bamberg,2011-06-30,2012-07-31
+7,817412,PJ Tucker,Sutor Montegranaro,2011-02-28,2011-06-30
+8,817412,PJ Tucker,Aris BC,2010-07-31,2011-02-28
+9,817412,PJ Tucker,Bnei Herzelia,2010-02-28,2010-07-31
+10,817412,PJ Tucker,BC Donetsk,2008-07-31,2010-02-28
+11,817412,PJ Tucker,Hapoel Unet Holon,2007-07-31,2008-07-31
+12,817412,PJ Tucker,Toronto Raptors,2006-07-25,2007-07-31
+0,846946,Georges Niang,Philadelphia 76ers,2021-08-08,
+1,846946,Georges Niang,Utah Jazz,2018-06-12,2021-08-08
+2,846946,Georges Niang,Santa Cruz Warriors,2017-10-13,2018-06-12
+3,846946,Georges Niang,Golden State Warriors,2017-08-15,2017-10-13
+4,846946,Georges Niang,Indiana Pacers,2016-06-22,2017-08-15
+0,1132153,Mac McClung,Philadelphia 76ers,2023-02-14,
+1,1132153,Mac McClung,Los Angeles Lakers,2022-04-08,2023-02-14
+2,1132153,Mac McClung,Chicago Bulls,2021-12-22,2022-04-08
+0,846983,Danuel House,Philadelphia 76ers,2022-06-30,
+1,846983,Danuel House,Utah Jazz,2022-01-05,2022-06-30
+2,846983,Danuel House,New York Knicks,2021-12-22,2022-01-05
+3,846983,Danuel House,Houston Rockets,2019-03-12,2021-12-22
+4,846983,Danuel House,Phoenix Suns,2016-09-22,2019-03-12
+0,817136,Montrezl Harrell,Charlotte Hornets,2022-02-09,
+1,817136,Montrezl Harrell,Washington Wizards,2021-07-29,2022-02-09
+2,817136,Montrezl Harrell,Los Angeles Lakers,2020-11-19,2021-07-29
+3,817136,Montrezl Harrell,Los Angeles Clippers,2017-06-28,2020-11-19
+4,817136,Montrezl Harrell,Houston Rockets,2015-06-24,2017-06-28
+0,1092906,Paul Reed,Philadelphia 76ers,2020-12-02,
+0,846950,Furkan Korkmaz,Philadelphia 76ers,2016-06-22,
+1,846950,Furkan Korkmaz,Anadolu Efes Istanbul,2012-01-19,2016-06-22
+0,1133927,Jaden Springer,Philadelphia 76ers,2021-07-28,
+0,817338,Julius Randle,New York Knicks,2019-06-30,
+1,817338,Julius Randle,New Orleans Pelicans,2018-07-07,2019-06-30
+2,817338,Julius Randle,Los Angeles Lakers,2014-07-12,2018-07-07
+0,940803,Jalen Brunson,New York Knicks,2022-06-30,
+1,940803,Jalen Brunson,Dallas Mavericks,2018-06-20,2022-06-30
+0,988995,RJ Barrett,New York Knicks,2019-06-19,
+0,1092912,Immanuel Quickley,New York Knicks,2020-12-02,
+0,885214,Josh Hart,New York Knicks,2023-02-08,
+1,885214,Josh Hart,Portland Trail Blazers,2022-02-07,2023-02-08
+2,885214,Josh Hart,New Orleans Pelicans,2019-06-14,2022-02-07
+3,885214,Josh Hart,Los Angeles Lakers,2017-06-22,2019-06-14
+4,885214,Josh Hart,Utah Jazz,2017-06-21,2017-06-22
+0,1133792,Quentin Grimes,New York Knicks,2021-07-28,
+0,940771,Mitchell Robinson,New York Knicks,2018-07-07,
+0,861639,Isaiah Hartenstein,New York Knicks,2022-06-30,
+1,861639,Isaiah Hartenstein,Los Angeles Clippers,2021-09-13,2022-06-30
+2,861639,Isaiah Hartenstein,Cleveland Cavaliers,2021-03-24,2021-09-13
+3,861639,Isaiah Hartenstein,Denver Nuggets,2020-12-23,2021-03-24
+4,861639,Isaiah Hartenstein,No team,2020-06-30,2020-12-23
+5,861639,Isaiah Hartenstein,Houston Rockets,2017-06-30,2020-06-30
+0,817094,Evan Fournier,New York Knicks,2021-08-05,
+1,817094,Evan Fournier,Boston Celtics,2021-03-24,2021-08-05
+2,817094,Evan Fournier,Orlando Magic,2014-06-25,2021-03-24
+3,817094,Evan Fournier,Denver Nuggets,2012-06-27,2014-06-25
+0,1092877,Obi Toppin,New York Knicks,2020-12-02,
+0,1133798,Jericho Sims,New York Knicks,2021-07-28,
+0,817351,Derrick Rose,New York Knicks,2021-02-07,
+1,817351,Derrick Rose,Detroit Pistons,2019-06-30,2021-02-07
+2,817351,Derrick Rose,Minnesota Timberwolves,2018-03-07,2019-06-30
+3,817351,Derrick Rose,Utah Jazz,2018-02-07,2018-03-07
+4,817351,Derrick Rose,Cleveland Cavaliers,2017-07-24,2018-02-07
+5,817351,Derrick Rose,New York Knicks,2016-06-22,2017-07-24
+6,817351,Derrick Rose,Chicago Bulls,2008-06-22,2016-06-22
+0,1133771,Miles McBride,New York Knicks,2021-07-28,
+0,1092954,Jalen Harris,New York Knicks,2023-01-15,
+1,1092954,Jalen Harris,Vanoli Cremona,2021-08-13,2023-01-15
+2,1092954,Jalen Harris,Toronto Raptors,2020-12-02,2021-08-13
+0,885203,Jayson Tatum,Boston Celtics,2017-06-21,
+0,846898,Jaylen Brown,Boston Celtics,2016-06-21,
+0,817375,Marcus Smart,Boston Celtics,2014-06-25,
+0,846931,Malcolm Brogdon,Boston Celtics,2022-06-30,
+1,846931,Malcolm Brogdon,Indiana Pacers,2019-06-30,2022-06-30
+2,846931,Malcolm Brogdon,Milwaukee Bucks,2016-06-22,2019-06-30
+0,885248,Derrick White,Boston Celtics,2022-02-09,
+1,885248,Derrick White,San Antonio Spurs,2017-06-21,2022-02-09
+0,817165,Al Horford,Boston Celtics,2021-06-17,
+1,817165,Al Horford,Oklahoma City Thunder,2020-11-19,2021-06-17
+2,817165,Al Horford,Philadelphia 76ers,2019-06-30,2020-11-19
+3,817165,Al Horford,Boston Celtics,2016-07-08,2019-06-30
+4,817165,Al Horford,Atlanta Hawks,2007-06-27,2016-07-08
+0,989079,Grant Williams,Boston Celtics,2019-06-19,
+0,940756,Robert Williams III,Boston Celtics,2018-07-04,
+1133791,1133791,Sam Hauser,Boston Celtics,,
+0,817287,Mike Muscala,Boston Celtics,2023-02-08,
+1,817287,Mike Muscala,Oklahoma City Thunder,2019-06-30,2023-02-08
+2,817287,Mike Muscala,Los Angeles Lakers,2019-02-06,2019-06-30
+3,817287,Mike Muscala,Los Angeles Clippers,2019-02-05,2019-02-06
+4,817287,Mike Muscala,Philadelphia 76ers,2018-07-24,2019-02-05
+5,817287,Mike Muscala,Atlanta Hawks,2013-06-26,2018-07-24
+0,1092911,Payton Pritchard,Boston Celtics,2020-12-02,
+0,817127,Blake Griffin,Boston Celtics,2022-09-29,
+1,817127,Blake Griffin,Brooklyn Nets,2021-03-07,2022-09-29
+2,817127,Blake Griffin,Detroit Pistons,2018-01-29,2021-03-07
+3,817127,Blake Griffin,Los Angeles Clippers,2009-06-24,2018-01-29
+0,905898,Luke Kornet,Boston Celtics,2022-02-10,
+1,905898,Luke Kornet,Milwaukee Bucks,2022-01-02,2022-02-10
+2,905898,Luke Kornet,Boston Celtics,2021-03-24,2022-01-02
+3,905898,Luke Kornet,No team,2021-01-31,2021-03-24
+4,905898,Luke Kornet,Chicago Bulls,2019-07-06,2021-01-31
+5,905898,Luke Kornet,New York Knicks,2017-07-02,2019-07-06
+0,817422,Noah Vonleh,Brooklyn Nets,2021-02-08,
+1,817422,Noah Vonleh,Chicago Bulls,2020-11-26,2021-02-08
+2,817422,Noah Vonleh,Denver Nuggets,2020-02-04,2020-11-26
+3,817422,Noah Vonleh,Minnesota Timberwolves,2019-07-07,2020-02-04
+4,817422,Noah Vonleh,New York Knicks,2018-07-23,2019-07-07
+5,817422,Noah Vonleh,Chicago Bulls,2018-02-07,2018-07-23
+6,817422,Noah Vonleh,Portland Trail Blazers,2015-06-23,2018-02-07
+7,817422,Noah Vonleh,Charlotte Hornets,2014-07-24,2015-06-23
+1391265,1391265,Mfiondu Kabengele,Boston Celtics,,
+1179998,1179998,JD Davison,Boston Celtics,,
+1133778,1133778,Justin Champagnie,Boston Celtics,,
+0,817101,Danilo Gallinari,Boston Celtics,2022-06-30,
+1,817101,Danilo Gallinari,San Antonio Spurs,2022-06-28,2022-06-30
+2,817101,Danilo Gallinari,Atlanta Hawks,2020-11-20,2022-06-28
+3,817101,Danilo Gallinari,Oklahoma City Thunder,2019-07-05,2020-11-20
+4,817101,Danilo Gallinari,Los Angeles Clippers,2017-06-30,2019-07-05
+5,817101,Danilo Gallinari,Denver Nuggets,2011-02-21,2017-06-30
+6,817101,Danilo Gallinari,New York Knicks,2008-06-25,2011-02-21
+0,940755,Trae Young,Atlanta Hawks,2018-06-30,
+1,940755,Trae Young,Dallas Mavericks,2018-06-20,2018-06-30
+0,846964,Dejounte Murray,Atlanta Hawks,2022-06-28,
+1,846964,Dejounte Murray,San Antonio Spurs,2016-07-13,2022-06-28
+0,988300,De'Andre Hunter,Atlanta Hawks,2019-06-21,
+1,988300,De'Andre Hunter,New Orleans Pelicans,2019-06-20,2019-06-21
+2,988300,De'Andre Hunter,Los Angeles Lakers,2019-06-19,2019-06-20
+0,885200,John Collins,Atlanta Hawks,2017-06-21,
+0,905908,Bogdan Bogdanovic,Atlanta Hawks,2020-11-21,
+1,905908,Bogdan Bogdanovic,Sacramento Kings,2017-07-12,2020-11-21
+0,1092874,Saddiq Bey,Atlanta Hawks,2023-02-08,
+1,1092874,Saddiq Bey,Detroit Pistons,2020-12-02,2023-02-08
+0,817022,Clint Capela,Atlanta Hawks,2020-02-04,
+1,817022,Clint Capela,Houston Rockets,2014-06-25,2020-02-04
+1092036,1092036,Onyeka Okongwu,Atlanta Hawks,,
+1181233,1181233,AJ Griffin,Atlanta Hawks,,
+0,1133787,Jalen Johnson,Atlanta Hawks,2021-07-28,
+0,987933,Jarrett Culver,Memphis Grizzlies,2021-08-16,
+1,987933,Jarrett Culver,Minnesota Timberwolves,2019-07-05,2021-08-16
+2,987933,Jarrett Culver,Phoenix Suns,2019-06-19,2019-07-05
+0,989020,Garrison Mathews,Atlanta Hawks,2023-02-08,
+1,989020,Garrison Mathews,Houston Rockets,2021-10-18,2023-02-08
+2,989020,Garrison Mathews,Boston Celtics,2021-09-27,2021-10-18
+0,940789,Aaron Holiday,Atlanta Hawks,2022-06-30,
+1,940789,Aaron Holiday,Phoenix Suns,2022-02-10,2022-06-30
+2,940789,Aaron Holiday,Washington Wizards,2021-08-05,2022-02-10
+3,940789,Aaron Holiday,Indiana Pacers,2018-06-30,2021-08-05
+1092866,1092866,Trent Forrest,Atlanta Hawks,,
+0,989078,Bruno Fernando,Atlanta Hawks,2023-02-08,
+1,989078,Bruno Fernando,Houston Rockets,2022-02-09,2023-02-08
+2,989078,Bruno Fernando,Boston Celtics,2021-08-06,2022-02-09
+3,989078,Bruno Fernando,Atlanta Hawks,2019-06-20,2021-08-06
+4,989078,Bruno Fernando,Philadelphia 76ers,2019-06-19,2019-06-20
+0,1092950,Vit Krejci,Oklahoma City Thunder,2020-12-02,
+1179043,1179043,Tyrese Martin,Atlanta Hawks,,
+1178199,1178199,Donovan Williams,Atlanta Hawks,,
+0,817091,Derrick Favors,Oklahoma City Thunder,2021-07-29,
+1,817091,Derrick Favors,Utah Jazz,2020-11-21,2021-07-29
+2,817091,Derrick Favors,New Orleans Pelicans,2019-07-06,2020-11-21
+3,817091,Derrick Favors,Utah Jazz,2011-02-22,2019-07-06
+4,817091,Derrick Favors,Brooklyn Nets,2010-06-23,2011-02-22
+0,816997,Bojan Bogdanović,Detroit Pistons,2022-06-30,
+1,816997,Bojan Bogdanović,Utah Jazz,2019-06-30,2022-06-30
+2,816997,Bojan Bogdanović,Indiana Pacers,2017-07-06,2019-06-30
+3,816997,Bojan Bogdanović,Washington Wizards,2017-02-23,2017-07-06
+4,816997,Bojan Bogdanović,Brooklyn Nets,2014-07-21,2017-02-23
+5,816997,Bojan Bogdanović,Fenerbahce,2011-02-10,2014-07-21
+6,816997,Bojan Bogdanović,KK Cibona,2009-07-31,2011-02-10
+0,1133854,Cade Cunningham,Detroit Pistons,2021-07-28,
+1178370,1178370,Jaden Ivey,Detroit Pistons,,
+0,1092901,Isaiah Stewart,Detroit Pistons,2020-12-02,
+0,998636,Killian Hayes,Detroit Pistons,2020-11-17,
+1,998636,Killian Hayes,Ratiopharm Ulm,2019-08-01,2020-11-17
+0,940811,Marvin Bagley III,Detroit Pistons,2022-02-09,
+1,940811,Marvin Bagley III,Sacramento Kings,2018-06-30,2022-02-09
+0,817014,Alec Burks,Detroit Pistons,2022-06-28,
+1,817014,Alec Burks,New York Knicks,2020-11-21,2022-06-28
+2,817014,Alec Burks,Philadelphia 76ers,2020-02-05,2020-11-21
+3,817014,Alec Burks,Golden State Warriors,2019-07-07,2020-02-05
+4,817014,Alec Burks,Sacramento Kings,2019-02-06,2019-07-07
+5,817014,Alec Burks,Cleveland Cavaliers,2018-11-27,2019-02-06
+6,817014,Alec Burks,Utah Jazz,2011-06-22,2018-11-27
+1179838,1179838,Jalen Duren,Detroit Pistons,,
+0,1133845,Isaiah Livers,Detroit Pistons,2021-07-28,
+0,1092884,James Wiseman,Detroit Pistons,2023-02-08,
+1,1092884,James Wiseman,Golden State Warriors,2020-12-02,2023-02-08
+0,940798,Hamidou Diallo,Detroit Pistons,2021-03-12,
+1,940798,Hamidou Diallo,Oklahoma City Thunder,2018-07-05,2021-03-12
+2,940798,Hamidou Diallo,Charlotte Hornets,2018-07-04,2018-07-05
+3,940798,Hamidou Diallo,Brooklyn Nets,2018-06-20,2018-07-04
+0,817206,Cory Joseph,Detroit Pistons,2021-03-24,
+1,817206,Cory Joseph,Sacramento Kings,2019-06-30,2021-03-24
+2,817206,Cory Joseph,Indiana Pacers,2017-07-09,2019-06-30
+3,817206,Cory Joseph,Toronto Raptors,2015-06-08,2017-07-09
+4,817206,Cory Joseph,San Antonio Spurs,2011-06-22,2015-06-08
+0,1133924,Eugene Omoruyi,Oklahoma City Thunder,2022-06-30,
+0,846928,Rodney McGruder,Detroit Pistons,2022-01-31,
+1,846928,Rodney McGruder,Denver Nuggets,2022-01-10,2022-01-31
+2,846928,Rodney McGruder,Detroit Pistons,2020-11-21,2022-01-10
+3,846928,Rodney McGruder,Los Angeles Clippers,2019-04-08,2020-11-21
+4,846928,Rodney McGruder,Miami Heat,2016-07-06,2019-04-08
+0,1092949,R.J. Hampton,Orlando Magic,2021-03-24,
+1,1092949,R.J. Hampton,Denver Nuggets,2020-12-02,2021-03-24
+1179430,1179430,Jared Rhoden,Detroit Pistons,,
+0,1178536,Buddy Boeheim,Detroit Pistons,2023-01-15,
+0,1178570,Stanley Umude,Detroit Pistons,2022-12-14,
+0,817108,Paul George,Los Angeles Clippers,2019-07-05,
+1,817108,Paul George,Oklahoma City Thunder,2017-06-29,2019-07-05
+2,817108,Paul George,Indiana Pacers,2010-06-23,2017-06-29
+0,817229,Kawhi Leonard,Los Angeles Clippers,2019-07-05,
+1,817229,Kawhi Leonard,Toronto Raptors,2018-07-17,2019-07-05
+2,817229,Kawhi Leonard,San Antonio Spurs,2011-12-09,2018-07-17
+0,817437,Russell Westbrook,Los Angeles Clippers,2023-02-19,
+1,817437,Russell Westbrook,Utah Jazz,2023-02-08,2023-02-19
+2,817437,Russell Westbrook,Los Angeles Lakers,2021-07-29,2023-02-08
+3,817437,Russell Westbrook,Washington Wizards,2020-12-02,2021-07-29
+4,817437,Russell Westbrook,Houston Rockets,2019-07-10,2020-12-02
+5,817437,Russell Westbrook,Oklahoma City Thunder,2008-07-04,2019-07-10
+0,817332,Norman Powell,Los Angeles Clippers,2022-02-03,
+1,817332,Norman Powell,Portland Trail Blazers,2021-03-24,2022-02-03
+2,817332,Norman Powell,Toronto Raptors,2015-06-14,2021-03-24
+0,817115,Eric Gordon,Los Angeles Clippers,2023-02-08,
+1,817115,Eric Gordon,Houston Rockets,2016-07-04,2023-02-08
+2,817115,Eric Gordon,New Orleans Pelicans,2011-12-13,2016-07-04
+3,817115,Eric Gordon,Los Angeles Clippers,2008-06-25,2011-12-13
+0,817279,Marcus Morris,Los Angeles Clippers,2020-02-05,
+1,817279,Marcus Morris,New York Knicks,2019-07-10,2020-02-05
+2,817279,Marcus Morris,Boston Celtics,2017-07-06,2019-07-10
+3,817279,Marcus Morris,Detroit Pistons,2015-07-08,2017-07-06
+4,817279,Marcus Morris,Phoenix Suns,2013-02-20,2015-07-08
+5,817279,Marcus Morris,Houston Rockets,2011-06-22,2013-02-20
+0,846927,Ivica Zubac,Los Angeles Clippers,2019-02-06,
+1,846927,Ivica Zubac,Los Angeles Lakers,2016-06-22,2019-02-06
+0,817324,Mason Plumlee,Los Angeles Clippers,2023-02-08,
+1,817324,Mason Plumlee,Charlotte Hornets,2021-07-30,2023-02-08
+2,817324,Mason Plumlee,Detroit Pistons,2020-11-21,2021-07-30
+3,817324,Mason Plumlee,Denver Nuggets,2017-02-23,2020-11-21
+4,817324,Mason Plumlee,Portland Trail Blazers,2015-06-24,2017-02-23
+5,817324,Mason Plumlee,Brooklyn Nets,2013-07-02,2015-06-24
+0,989017,Terance Mann,Los Angeles Clippers,2019-06-19,
+0,1133811,Nah'Shon Hyland,Los Angeles Clippers,2023-02-08,
+1,1133811,Nah'Shon Hyland,Denver Nuggets,2021-07-28,2023-02-08
+0,816981,Nicolas Batum,Los Angeles Clippers,2020-11-30,
+1,816981,Nicolas Batum,Charlotte Hornets,2015-06-23,2020-11-30
+2,816981,Nicolas Batum,Portland Trail Blazers,2008-06-25,2015-06-23
+0,817044,Robert Covington,Los Angeles Clippers,2022-02-03,
+1,817044,Robert Covington,Portland Trail Blazers,2020-11-16,2022-02-03
+2,817044,Robert Covington,Houston Rockets,2020-02-04,2020-11-16
+3,817044,Robert Covington,Minnesota Timberwolves,2018-11-09,2020-02-04
+4,817044,Robert Covington,Philadelphia 76ers,2014-10-31,2018-11-09
+5,817044,Robert Covington,Houston Rockets,2013-07-14,2014-10-31
+0,1133989,Brandon Boston Jr.,Los Angeles Clippers,2021-07-28,
+0,989007,Amir Coffey,Los Angeles Clippers,2021-03-04,
+0,1092929,Anthony Edwards,Minnesota Timberwolves,2020-12-02,
+0,817410,Karl-Anthony Towns,Minnesota Timberwolves,2015-06-24,
+0,817111,Rudy Gobert,Minnesota Timberwolves,2022-06-30,
+1,817111,Rudy Gobert,Utah Jazz,2013-06-26,2022-06-30
+0,1092930,Jaden McDaniels,Minnesota Timberwolves,2020-12-02,
+0,817038,Mike Conley,Minnesota Timberwolves,2023-02-08,
+1,817038,Mike Conley,Utah Jazz,2019-06-30,2023-02-08
+2,817038,Mike Conley,Memphis Grizzlies,2007-06-27,2019-06-30
+0,816958,Kyle Anderson,Minnesota Timberwolves,2022-06-30,
+1,816958,Kyle Anderson,Memphis Grizzlies,2018-07-09,2022-06-30
+2,816958,Kyle Anderson,San Antonio Spurs,2014-07-11,2018-07-09
+0,846893,Taurean Prince,Minnesota Timberwolves,2021-08-02,
+1,846893,Taurean Prince,Cleveland Cavaliers,2021-01-12,2021-08-02
+2,846893,Taurean Prince,Brooklyn Nets,2019-06-05,2021-01-12
+3,846893,Taurean Prince,Atlanta Hawks,2016-07-06,2019-06-05
+4,846893,Taurean Prince,Utah Jazz,2016-06-22,2016-07-06
+0,987872,Jaylen Nowell,Minnesota Timberwolves,2021-01-18,
+1000618,1000618,Naz Reid,Minnesota Timberwolves,,
+0,817344,Austin Rivers,Minnesota Timberwolves,2022-07-19,
+1,817344,Austin Rivers,Denver Nuggets,2021-04-19,2022-07-19
+2,817344,Austin Rivers,Oklahoma City Thunder,2021-03-24,2021-04-19
+3,817344,Austin Rivers,New York Knicks,2020-11-26,2021-03-24
+4,817344,Austin Rivers,Houston Rockets,2018-12-23,2020-11-26
+5,817344,Austin Rivers,No team,2018-12-17,2018-12-23
+6,817344,Austin Rivers,Phoenix Suns,2018-12-16,2018-12-17
+7,817344,Austin Rivers,Washington Wizards,2018-06-25,2018-12-16
+8,817344,Austin Rivers,Los Angeles Clippers,2015-01-11,2018-06-25
+9,817344,Austin Rivers,New Orleans Pelicans,2012-07-23,2015-01-11
+0,988994,Nickeil Alexander-Walker,Minnesota Timberwolves,2023-02-08,
+1,988994,Nickeil Alexander-Walker,Utah Jazz,2022-02-08,2023-02-08
+2,988994,Nickeil Alexander-Walker,Portland Trail Blazers,2022-02-07,2022-02-08
+3,988994,Nickeil Alexander-Walker,New Orleans Pelicans,2019-07-06,2022-02-07
+4,988994,Nickeil Alexander-Walker,Atlanta Hawks,2019-07-05,2019-07-06
+5,988994,Nickeil Alexander-Walker,Brooklyn Nets,2019-06-19,2019-07-05
+0,951089,Jordan McLaughlin,Minnesota Timberwolves,2021-01-01,
+1,951089,Jordan McLaughlin,Minnesota Timberwolves,2019-08-04,2021-01-01
+0,1092948,Nathan Knight,Minnesota Timberwolves,2021-08-22,
+1,1092948,Nathan Knight,Atlanta Hawks,2020-12-02,2021-08-22
+1181226,1181226,Wendell Moore,Minnesota Timberwolves,,
+0,817181,LeBron James,Los Angeles Lakers,2018-06-30,
+1,817181,LeBron James,Cleveland Cavaliers,2014-06-24,2018-06-30
+2,817181,LeBron James,Miami Heat,2010-07-09,2014-06-24
+3,817181,LeBron James,Cleveland Cavaliers,2003-06-25,2010-07-09
+0,817054,Anthony Davis,Los Angeles Lakers,2019-06-14,
+1,817054,Anthony Davis,New Orleans Pelicans,2012-06-27,2019-06-14
+0,817357,D'Angelo Russell,Los Angeles Lakers,2023-02-08,
+1,817357,D'Angelo Russell,Minnesota Timberwolves,2020-02-05,2023-02-08
+2,817357,D'Angelo Russell,Golden State Warriors,2019-06-30,2020-02-05
+3,817357,D'Angelo Russell,Brooklyn Nets,2017-06-23,2019-06-30
+4,817357,D'Angelo Russell,Los Angeles Lakers,2015-06-24,2017-06-23
+0,817361,Dennis Schroder,Los Angeles Lakers,2022-09-16,
+1,817361,Dennis Schroder,Houston Rockets,2022-02-09,2022-09-16
+2,817361,Dennis Schroder,Boston Celtics,2021-08-10,2022-02-09
+3,817361,Dennis Schroder,Los Angeles Lakers,2020-11-15,2021-08-10
+4,817361,Dennis Schroder,Oklahoma City Thunder,2018-07-24,2020-11-15
+5,817361,Dennis Schroder,Atlanta Hawks,2013-06-26,2018-07-24
+6,817361,Dennis Schroder,Phantoms Braunschweig,2010-02-09,2013-06-26
+1132140,1132140,Austin Reaves,Los Angeles Lakers,,
+0,846918,Malik Beasley,Los Angeles Lakers,2023-02-08,
+1,846918,Malik Beasley,Utah Jazz,2022-06-30,2023-02-08
+2,846918,Malik Beasley,Minnesota Timberwolves,2020-02-04,2022-06-30
+3,846918,Malik Beasley,Denver Nuggets,2016-06-22,2020-02-04
+0,988788,Rui Hachimura,Los Angeles Lakers,2023-01-22,
+1,988788,Rui Hachimura,Washington Wizards,2019-06-19,2023-01-22
+0,940758,Lonnie Walker IV,Los Angeles Lakers,2022-06-30,
+1,940758,Lonnie Walker IV,San Antonio Spurs,2018-06-30,2022-06-30
+0,940804,Troy Brown Jr.,Los Angeles Lakers,2022-06-30,
+1,940804,Troy Brown Jr.,Chicago Bulls,2021-03-24,2022-06-30
+2,940804,Troy Brown Jr.,Washington Wizards,2018-06-20,2021-03-24
+0,940760,Jarred Vanderbilt,Los Angeles Lakers,2023-02-08,
+1,940760,Jarred Vanderbilt,Utah Jazz,2022-06-30,2023-02-08
+2,940760,Jarred Vanderbilt,Minnesota Timberwolves,2020-02-04,2022-06-30
+3,940760,Jarred Vanderbilt,Denver Nuggets,2018-06-30,2020-02-04
+4,940760,Jarred Vanderbilt,Orlando Magic,2018-06-20,2018-06-30
+0,940810,Mohamed Bamba,Los Angeles Lakers,2023-02-08,
+1,940810,Mohamed Bamba,Orlando Magic,2018-07-01,2023-02-08
+0,957469,Wenyen Gabriel,Los Angeles Lakers,2022-03-01,
+1,957469,Wenyen Gabriel,New Orleans Pelicans,2022-01-29,2022-03-01
+2,957469,Wenyen Gabriel,Los Angeles Clippers,2021-12-30,2022-01-29
+3,957469,Wenyen Gabriel,Brooklyn Nets,2021-12-21,2021-12-30
+4,957469,Wenyen Gabriel,New Orleans Pelicans,2020-12-02,2021-12-21
+5,957469,Wenyen Gabriel,Portland Trail Blazers,2020-01-19,2020-12-02
+0,885239,Davon Reed,Los Angeles Lakers,2023-02-08,
+1,885239,Davon Reed,Denver Nuggets,2021-09-27,2023-02-08
+2,885239,Davon Reed,Miami Heat,2019-09-04,2021-09-27
+3,885239,Davon Reed,Indiana Pacers,2018-10-18,2019-09-04
+4,885239,Davon Reed,Phoenix Suns,2017-06-21,2018-10-18
+1386097,1386097,Scotty Pippen Jr.,Los Angeles Lakers,,
+1178535,1178535,Cole Swider,Los Angeles Lakers,,
+0,817406,Tristan Thompson,Chicago Bulls,2022-02-20,
+1,817406,Tristan Thompson,Indiana Pacers,2022-02-07,2022-02-20
+2,817406,Tristan Thompson,Sacramento Kings,2021-07-31,2022-02-07
+3,817406,Tristan Thompson,Atlanta Hawks,2021-07-30,2021-07-31
+4,817406,Tristan Thompson,Boston Celtics,2020-11-22,2021-07-30
+5,817406,Tristan Thompson,Cleveland Cavaliers,2011-06-22,2020-11-22
+0,817050,Stephen Curry,Golden State Warriors,2009-06-24,
+0,817404,Klay Thompson,Golden State Warriors,2011-06-22,
+0,817442,Andrew Wiggins,Golden State Warriors,2020-02-05,
+1,817442,Andrew Wiggins,Minnesota Timberwolves,2014-08-22,2020-02-05
+0,989024,Jordan Poole,Golden State Warriors,2019-06-19,
+0,817122,Draymond Green,Golden State Warriors,2012-07-29,
+0,940799,Donte DiVincenzo,Golden State Warriors,2022-06-30,
+1,940799,Donte DiVincenzo,Sacramento Kings,2022-02-09,2022-06-30
+2,940799,Donte DiVincenzo,Milwaukee Bucks,2018-06-20,2022-02-09
+0,817235,Kevon Looney,Golden State Warriors,2018-12-02,
+1,817235,Kevon Looney,Santa Cruz Warriors,2016-01-03,2018-12-02
+2,817235,Kevon Looney,Golden State Warriors,2015-07-07,2016-01-03
+0,1132126,Jonathan Kuminga,Golden State Warriors,2021-08-02,
+0,1092951,Anthony Lamb,Houston Rockets,2022-03-23,
+1,1092951,Anthony Lamb,San Antonio Spurs,2022-01-05,2022-03-23
+2,1092951,Anthony Lamb,Houston Rockets,2021-03-23,2022-01-05
+3,1092951,Anthony Lamb,Detroit Pistons,2020-12-02,2021-03-23
+0,988301,TY Jerome,Oklahoma City Thunder,2020-11-16,
+0,855982,Gary Payton II,Golden State Warriors,2023-02-08,
+1,855982,Gary Payton II,Portland Trail Blazers,2022-06-30,2023-02-08
+2,855982,Gary Payton II,Golden State Warriors,2021-04-08,2022-06-30
+3,855982,Gary Payton II,Washington Wizards,2019-01-20,2021-04-08
+4,855982,Gary Payton II,Portland Trail Blazers,2018-09-03,2019-01-20
+5,855982,Gary Payton II,Los Angeles Lakers,2018-01-14,2018-09-03
+6,855982,Gary Payton II,Milwaukee Bucks,2017-04-01,2018-01-14
+0,817125,JaMychal Green,Golden State Warriors,2022-07-31,
+1,817125,JaMychal Green,Denver Nuggets,2022-06-14,2022-07-31
+2,817125,JaMychal Green,Denver Nuggets,2020-11-20,2022-06-14
+3,817125,JaMychal Green,Los Angeles Clippers,2019-02-06,2020-11-20
+4,817125,JaMychal Green,Memphis Grizzlies,2014-02-01,2019-02-06
+0,817173,Andre Iguodala,Golden State Warriors,2021-08-05,
+1,817173,Andre Iguodala,Miami Heat,2020-02-05,2021-08-05
+2,817173,Andre Iguodala,Memphis Grizzlies,2019-06-30,2020-02-05
+3,817173,Andre Iguodala,Golden State Warriors,2013-07-04,2019-06-30
+4,817173,Andre Iguodala,Denver Nuggets,2012-08-09,2013-07-04
+5,817173,Andre Iguodala,Philadelphia 76ers,2004-06-23,2012-08-09
+0,1132134,Moses Moody,Golden State Warriors,2021-07-28,
+0,1180496,Patrick Baldwin Jr,Golden State Warriors,2022-06-23,
+1178910,1178910,Ryan Rollins,Golden State Warriors,,
+0,1389948,Pat Spencer,Golden State Warriors,2023-02-14,
+0,987552,Keldon Johnson,San Antonio Spurs,2019-06-19,
+0,1092880,Devin Vassell,San Antonio Spurs,2020-12-02,
+0,1092947,Tre Jones,San Antonio Spurs,2020-12-02,
+0,1179822,Jeremy Sochan,San Antonio Spurs,2022-06-22,
+0,885242,Zach Collins,San Antonio Spurs,2021-08-01,
+1,885242,Zach Collins,Portland Trail Blazers,2017-06-22,2021-08-01
+2,885242,Zach Collins,Sacramento Kings,2017-06-21,2017-06-22
+0,940809,Keita Bates-Diop,San Antonio Spurs,2020-12-02,
+1,940809,Keita Bates-Diop,Denver Nuggets,2020-02-04,2020-12-02
+2,940809,Keita Bates-Diop,Minnesota Timberwolves,2018-07-05,2020-02-04
+0,817256,Doug McDermott,San Antonio Spurs,2021-08-07,
+1,817256,Doug McDermott,Indiana Pacers,2018-07-05,2021-08-07
+2,817256,Doug McDermott,Dallas Mavericks,2018-02-07,2018-07-05
+3,817256,Doug McDermott,New York Knicks,2017-09-23,2018-02-07
+4,817256,Doug McDermott,Oklahoma City Thunder,2017-02-23,2017-09-23
+5,817256,Doug McDermott,Chicago Bulls,2014-06-25,2017-02-23
+0,1178394,Julian Champagnie,Philadelphia 76ers,2022-06-30,
+0,987101,Romeo Langford,San Antonio Spurs,2022-02-09,
+1,987101,Romeo Langford,Boston Celtics,2021-03-19,2022-02-09
+2,987101,Romeo Langford,Boston Celtics,2019-06-19,2021-03-19
+0,940793,Devonte' Graham,San Antonio Spurs,2023-02-08,
+1,940793,Devonte' Graham,New Orleans Pelicans,2021-08-06,2023-02-08
+2,940793,Devonte' Graham,Charlotte Hornets,2018-06-30,2021-08-06
+3,940793,Devonte' Graham,Atlanta Hawks,2018-06-20,2018-06-30
+0,1134004,Sandro Mamukelashvili,Milwaukee Bucks,2021-07-28,
+0,817196,Stanley Johnson,Los Angeles Lakers,2021-12-24,
+1,817196,Stanley Johnson,Chicago Bulls,2021-09-06,2021-12-24
+2,817196,Stanley Johnson,Toronto Raptors,2019-07-05,2021-09-06
+3,817196,Stanley Johnson,New Orleans Pelicans,2019-02-06,2019-07-05
+4,817196,Stanley Johnson,Detroit Pistons,2015-06-24,2019-02-06
+0,1133907,Charles Bassey,Philadelphia 76ers,2021-07-28,
+0,817058,Dewayne Dedmon,San Antonio Spurs,2023-02-07,
+1,817058,Dewayne Dedmon,Miami Heat,2021-04-08,2023-02-07
+2,817058,Dewayne Dedmon,Detroit Pistons,2020-11-19,2021-04-08
+3,817058,Dewayne Dedmon,Atlanta Hawks,2020-02-05,2020-11-19
+4,817058,Dewayne Dedmon,Sacramento Kings,2019-06-30,2020-02-05
+5,817058,Dewayne Dedmon,Atlanta Hawks,2017-07-20,2019-06-30
+6,817058,Dewayne Dedmon,San Antonio Spurs,2016-07-13,2017-07-20
+7,817058,Dewayne Dedmon,Orlando Magic,2014-02-24,2016-07-13
+8,817058,Dewayne Dedmon,Philadelphia 76ers,2014-02-13,2014-02-24
+9,817058,Dewayne Dedmon,Golden State Warriors,2013-11-17,2014-02-13
+0,989030,Isaiah Roby,Oklahoma City Thunder,2022-07-20,
+1,989030,Isaiah Roby,San Antonio Spurs,2022-07-04,2022-07-20
+2,989030,Isaiah Roby,Oklahoma City Thunder,2020-01-23,2022-07-04
+3,989030,Isaiah Roby,Dallas Mavericks,2019-06-30,2020-01-23
+4,989030,Isaiah Roby,Detroit Pistons,2019-06-19,2019-06-30
+0,817063,Gorgui Dieng,San Antonio Spurs,2022-07-04,
+1,817063,Gorgui Dieng,Atlanta Hawks,2021-08-08,2022-07-04
+2,817063,Gorgui Dieng,San Antonio Spurs,2021-03-27,2021-08-08
+3,817063,Gorgui Dieng,Memphis Grizzlies,2020-02-05,2021-03-27
+4,817063,Gorgui Dieng,Minnesota Timberwolves,2013-06-26,2020-02-05
+0,905900,Khem Birch,San Antonio Spurs,2023-02-08,
+1,905900,Khem Birch,Toronto Raptors,2021-04-25,2023-02-08
+2,905900,Khem Birch,Orlando Magic,2017-06-26,2021-04-25
+3,905900,Khem Birch,Olympiacos BC,2016-06-13,2017-06-26
+0,1092868,LaMelo Ball,Charlotte Hornets,2020-11-17,
+0,817353,Terry Rozier,Charlotte Hornets,2019-06-30,
+1,817353,Terry Rozier,Boston Celtics,2015-07-26,2019-06-30
+0,817307,Kelly Oubre Jr.,Charlotte Hornets,2021-08-05,
+1,817307,Kelly Oubre Jr.,Golden State Warriors,2020-11-19,2021-08-05
+2,817307,Kelly Oubre Jr.,Oklahoma City Thunder,2020-11-16,2020-11-19
+3,817307,Kelly Oubre Jr.,Phoenix Suns,2018-12-16,2020-11-16
+4,817307,Kelly Oubre Jr.,Washington Wizards,2015-06-24,2018-12-16
+0,987613,P.J. Washington,Charlotte Hornets,2019-06-19,
+0,817147,Gordon Hayward,Charlotte Hornets,2020-11-19,
+1,817147,Gordon Hayward,Boston Celtics,2017-07-04,2020-11-19
+2,817147,Gordon Hayward,Utah Jazz,2010-06-23,2017-07-04
+0,885208,Dennis Smith Jr.,Portland Trail Blazers,2021-10-17,
+1,885208,Dennis Smith Jr.,Detroit Pistons,2021-02-07,2021-10-17
+2,885208,Dennis Smith Jr.,New York Knicks,2019-01-30,2021-02-07
+3,885208,Dennis Smith Jr.,Dallas Mavericks,2017-06-21,2019-01-30
+1181229,1181229,Mark Williams,Charlotte Hornets,,
+0,1092907,Nick Richards,Charlotte Hornets,2020-12-02,
+0,903020,Theo Maledon,Charlotte Hornets,2022-10-14,
+1,903020,Theo Maledon,Oklahoma City Thunder,2020-12-07,2022-10-14
+0,989016,Cody Martin,Charlotte Hornets,2019-06-19,
+1180196,1180196,Bryce McGowens,Charlotte Hornets,,
+0,940776,Sviatoslav Mykhailiuk,Toronto Raptors,2021-08-29,
+1,940776,Sviatoslav Mykhailiuk,Oklahoma City Thunder,2021-03-12,2021-08-29
+2,940776,Sviatoslav Mykhailiuk,Detroit Pistons,2019-02-05,2021-03-12
+3,940776,Sviatoslav Mykhailiuk,Los Angeles Lakers,2018-07-09,2019-02-05
+0,1133782,James Bouknight,Charlotte Hornets,2021-07-28,
+0,1134020,JT Thor,Charlotte Hornets,2021-07-28,
+0,1133786,Kai Jones,Charlotte Hornets,2021-07-28,
+0,905866,Kobi Simmons,BM Slam Stal Ostrów Wielkopolski,2021-09-24,
+1,905866,Kobi Simmons,Charlotte Hornets,2019-09-02,2021-09-24
+2,905866,Kobi Simmons,Cleveland Cavaliers,2018-09-25,2019-09-02
+3,905866,Kobi Simmons,Memphis Grizzlies,2017-06-30,2018-09-25
+0,816985,Bradley Beal,Washington Wizards,2012-06-27,
+0,885215,Kyle Kuzma,Washington Wizards,2021-07-29,
+1,885215,Kyle Kuzma,Los Angeles Lakers,2017-06-22,2021-07-29
+2,885215,Kyle Kuzma,Brooklyn Nets,2017-06-21,2017-06-22
+0,817330,Kristaps Porzingis,Washington Wizards,2022-02-09,
+1,817330,Kristaps Porzingis,Dallas Mavericks,2019-01-30,2022-02-09
+2,817330,Kristaps Porzingis,New York Knicks,2015-06-24,2019-01-30
+0,1134115,Corey Kispert,Washington Wizards,2021-07-28,
+0,885209,Monte Morris,Washington Wizards,2022-06-28,
+1,885209,Monte Morris,Denver Nuggets,2017-06-21,2022-06-28
+0,913627,Deni Avdija,Washington Wizards,2020-11-18,
+0,817458,Delon Wright,Washington Wizards,2022-06-30,
+1,817458,Delon Wright,Atlanta Hawks,2021-08-06,2022-06-30
+2,817458,Delon Wright,Sacramento Kings,2021-03-24,2021-08-06
+3,817458,Delon Wright,Detroit Pistons,2020-11-19,2021-03-24
+4,817458,Delon Wright,Dallas Mavericks,2019-07-06,2020-11-19
+5,817458,Delon Wright,Memphis Grizzlies,2019-02-06,2019-07-06
+6,817458,Delon Wright,Toronto Raptors,2015-07-02,2019-02-06
+0,989026,Daniel Gafford,Washington Wizards,2021-03-25,
+1,989026,Daniel Gafford,,2019-06-19,2021-03-25
+0,1134112,Jordan Goodwin,Washington Wizards,2021-12-26,
+0,956516,Kendrick Nunn,Washington Wizards,2023-01-22,
+1,956516,Kendrick Nunn,Los Angeles Lakers,2021-08-02,2023-01-22
+2,956516,Kendrick Nunn,Miami Heat,2019-04-09,2021-08-02
+1178665,1178665,Johnny Davis,Washington Wizards,,
+0,1415757,Jay Huff,Washington Wizards,2023-03-01,
+1,1415757,Jay Huff,Los Angeles Lakers,2021-11-17,2023-03-01
+0,1092921,Devon Dotson,Washington Wizards,2023-01-15,
+1,1092921,Devon Dotson,Chicago Bulls,2020-12-02,2023-01-15
+1180783,1180783,Xavier Cooks,Washington Wizards,,
+0,817109,Taj Gibson,New York Knicks,2021-01-06,
+1,817109,Taj Gibson,New York Knicks,2019-06-30,2021-01-06
+2,817109,Taj Gibson,Minnesota Timberwolves,2017-07-09,2019-06-30
+3,817109,Taj Gibson,Oklahoma City Thunder,2017-02-23,2017-07-09
+4,817109,Taj Gibson,Chicago Bulls,2009-06-26,2017-02-23
+0,905681,Anthony Gill,Washington Wizards,2020-12-05,
+0,1134118,Isaiah Todd,Washington Wizards,2021-08-10,
+1132141,1132141,Jordan Schakel,Washington Wizards,,
+1184917,1184917,Vernon Carey,Washington Wizards,,
+0,885252,Donovan Mitchell,Cleveland Cavaliers,2022-09-01,
+1,885252,Donovan Mitchell,Utah Jazz,2017-06-24,2022-09-01
+2,885252,Donovan Mitchell,Denver Nuggets,2017-06-21,2017-06-24
+0,987161,Darius Garland,Cleveland Cavaliers,2019-06-19,
+0,1133830,Evan Mobley,Cleveland Cavaliers,2021-07-28,
+0,885222,Jarrett Allen,Cleveland Cavaliers,2021-01-12,
+1,885222,Jarrett Allen,Brooklyn Nets,2016-06-21,2021-01-12
+0,846936,Caris LeVert,Cleveland Cavaliers,2022-02-05,
+1,846936,Caris LeVert,Indiana Pacers,2021-01-14,2022-02-05
+2,846936,Caris LeVert,Houston Rockets,2021-01-13,2021-01-14
+3,846936,Caris LeVert,Brooklyn Nets,2016-06-22,2021-01-13
+0,905877,Cedi Osman,Cleveland Cavaliers,2017-07-17,
+1,905877,Cedi Osman,Minnesota Timberwolves,2015-06-24,2017-07-17
+2,905877,Cedi Osman,Anadolu Efes,2011-07-20,2015-06-24
+0,1092915,Isaac Okoro,Cleveland Cavaliers,2020-12-02,
+0,987560,Dean Wade,Cleveland Cavaliers,2020-04-25,
+1,987560,Dean Wade,Kansas State Wildcats,2020-01-02,2020-04-25
+0,1092900,Lamar Stevens,Cleveland Cavaliers,2020-12-02,
+0,817354,Ricky Rubio,Cleveland Cavaliers,2022-06-30,
+1,817354,Ricky Rubio,Indiana Pacers,2022-02-05,2022-06-30
+2,817354,Ricky Rubio,Cleveland Cavaliers,2021-08-02,2022-02-05
+3,817354,Ricky Rubio,Minnesota Timberwolves,2020-11-18,2021-08-02
+4,817354,Ricky Rubio,Oklahoma City Thunder,2020-11-16,2020-11-18
+5,817354,Ricky Rubio,Phoenix Suns,2019-06-30,2020-11-16
+6,817354,Ricky Rubio,Utah Jazz,2017-07-01,2019-06-30
+7,817354,Ricky Rubio,Minnesota Timberwolves,2011-05-31,2017-07-01
+0,817121,Danny Green,Cleveland Cavaliers,2023-02-11,
+1,817121,Danny Green,Houston Rockets,2023-02-08,2023-02-11
+2,817121,Danny Green,Memphis Grizzlies,2022-06-23,2023-02-08
+3,817121,Danny Green,Philadelphia 76ers,2020-11-19,2022-06-23
+4,817121,Danny Green,Oklahoma City Thunder,2020-11-17,2020-11-19
+5,817121,Danny Green,Los Angeles Lakers,2019-07-05,2020-11-17
+6,817121,Danny Green,Toronto Raptors,2018-07-17,2019-07-05
+7,817121,Danny Green,San Antonio Spurs,2010-11-16,2018-07-17
+8,817121,Danny Green,Cleveland Cavaliers,2009-06-24,2010-11-16
+0,817293,Raul Neto,Cleveland Cavaliers,2022-06-30,
+1,817293,Raul Neto,Washington Wizards,2020-11-22,2022-06-30
+2,817293,Raul Neto,Philadelphia 76ers,2019-07-03,2020-11-22
+3,817293,Raul Neto,Utah Jazz,2015-07-08,2019-07-03
+1396473,1396473,Sam Merrill,Cleveland Cavaliers,,
+0,817237,Robin Lopez,Cleveland Cavaliers,2022-06-30,
+1,817237,Robin Lopez,Orlando Magic,2021-08-05,2022-06-30
+2,817237,Robin Lopez,Washington Wizards,2020-11-22,2021-08-05
+3,817237,Robin Lopez,Milwaukee Bucks,2019-06-30,2020-11-22
+4,817237,Robin Lopez,Chicago Bulls,2016-07-04,2019-06-30
+5,817237,Robin Lopez,New York Knicks,2015-07-07,2016-07-04
+6,817237,Robin Lopez,Portland Trail Blazers,2013-07-09,2015-07-07
+7,817237,Robin Lopez,New Orleans Pelicans,2012-07-26,2013-07-09
+8,817237,Robin Lopez,Phoenix Suns,2008-06-23,2012-07-26
+0,1409308,Mamadi Diakite,Cleveland Cavaliers,2022-10-16,
+1,1409308,Mamadi Diakite,Oklahoma City Thunder,2021-09-26,2022-10-16
+2,1409308,Mamadi Diakite,Milwaukee Bucks,2020-12-02,2021-09-26
+1178134,1178134,Isaiah Mobley,Cleveland Cavaliers,,
+0,987564,Dylan Windler,Cleveland Cavaliers,2019-06-19,
+0,846971,Pascal Siakam,Toronto Raptors,2017-06-21,
+0,846972,Fred VanVleet,Toronto Raptors,2016-07-17,
+0,885250,OG Anunoby,Toronto Raptors,2017-06-21,
+0,1133784,Scottie Barnes,Toronto Raptors,2021-07-28,
+0,940761,Gary Trent Jr.,Toronto Raptors,2021-03-24,
+1,940761,Gary Trent Jr.,Portland Trail Blazers,2018-06-30,2021-03-24
+2,940761,Gary Trent Jr.,Sacramento Kings,2018-06-20,2018-06-30
+0,846973,Jakob Pöltl,Toronto Raptors,2023-02-08,
+1,846973,Jakob Pöltl,San Antonio Spurs,2018-07-17,2023-02-08
+2,846973,Jakob Pöltl,Toronto Raptors,2016-06-21,2018-07-17
+0,905844,Chris Boucher,Toronto Raptors,2018-07-19,
+1,905844,Chris Boucher,Golden State Warriors,2017-06-30,2018-07-19
+0,1092863,Precious Achiuwa,Toronto Raptors,2021-08-06,
+1,1092863,Precious Achiuwa,Miami Heat,2020-11-17,2021-08-06
+0,817328,Otto Porter Jr.,Toronto Raptors,2022-06-30,
+1,817328,Otto Porter Jr.,Golden State Warriors,2021-08-02,2022-06-30
+2,817328,Otto Porter Jr.,Orlando Magic,2021-03-24,2021-08-02
+3,817328,Otto Porter Jr.,Chicago Bulls,2019-02-05,2021-03-24
+4,817328,Otto Porter Jr.,Washington Wizards,2013-07-07,2019-02-05
+0,816979,Will Barton,Washington Wizards,2022-06-28,
+1,816979,Will Barton,Denver Nuggets,2015-02-18,2022-06-28
+2,816979,Will Barton,Portland Trail Blazers,2012-06-27,2015-02-18
+0,817463,Thaddeus Young,Toronto Raptors,2022-02-09,
+1,817463,Thaddeus Young,San Antonio Spurs,2021-08-10,2022-02-09
+2,817463,Thaddeus Young,Chicago Bulls,2019-06-30,2021-08-10
+3,817463,Thaddeus Young,Indiana Pacers,2016-07-04,2019-06-30
+4,817463,Thaddeus Young,Brooklyn Nets,2015-02-18,2016-07-04
+5,817463,Thaddeus Young,Minnesota Timberwolves,2014-08-22,2015-02-18
+6,817463,Thaddeus Young,Philadelphia 76ers,2007-06-27,2014-08-22
+0,1092937,Malachi Flynn,Toronto Raptors,2020-12-02,
+0,846915,Juancho Hernangomez,Toronto Raptors,2022-07-26,
+1,846915,Juancho Hernangomez,Utah Jazz,2022-02-08,2022-07-26
+2,846915,Juancho Hernangomez,San Antonio Spurs,2022-01-18,2022-02-08
+3,846915,Juancho Hernangomez,Boston Celtics,2021-09-02,2022-01-18
+4,846915,Juancho Hernangomez,Memphis Grizzlies,2021-08-16,2021-09-02
+5,846915,Juancho Hernangomez,Minnesota Timberwolves,2020-02-04,2021-08-16
+6,846915,Juancho Hernangomez,Denver Nuggets,2016-04-09,2020-02-04
+7,846915,Juancho Hernangomez,Movistar Estudiantes,2012-10-24,2016-04-09
+1181314,1181314,Christian Koloko,Toronto Raptors,,
+0,1133795,Dalano Banton,Toronto Raptors,2021-07-28,
+0,1132119,Jeff Dowtin,Orlando Magic,2022-03-21,
+1,1132119,Jeff Dowtin,Milwaukee Bucks,2022-01-07,2022-03-21
+2,1132119,Jeff Dowtin,Golden State Warriors,2021-10-18,2022-01-07
+3,1132119,Jeff Dowtin,Orlando Magic,2021-09-07,2021-10-18
+0,1179581,Ron Harper,Toronto Raptors,2023-01-15,
+0,1133165,Joe Wieskamp,San Antonio Spurs,2021-07-28,
+0,885207,Lauri Markkanen,Utah Jazz,2022-08-31,
+1,885207,Lauri Markkanen,Cleveland Cavaliers,2021-08-26,2022-08-31
+2,885207,Lauri Markkanen,Chicago Bulls,2017-07-04,2021-08-26
+3,885207,Lauri Markkanen,Minnesota Timberwolves,2017-06-21,2017-07-04
+0,817034,Jordan Clarkson,Utah Jazz,2019-12-22,
+1,817034,Jordan Clarkson,Cleveland Cavaliers,2018-02-07,2019-12-22
+2,817034,Jordan Clarkson,Los Angeles Lakers,2014-06-25,2018-02-07
+0,817306,Kelly Olynyk,Utah Jazz,2022-09-21,
+1,817306,Kelly Olynyk,Detroit Pistons,2021-08-02,2022-09-21
+2,817306,Kelly Olynyk,Houston Rockets,2021-03-25,2021-08-02
+3,817306,Kelly Olynyk,Miami Heat,2017-07-06,2021-03-25
+4,817306,Kelly Olynyk,Boston Celtics,2013-07-06,2017-07-06
+0,846933,Kris Dunn,Portland Trail Blazers,2022-03-13,
+1,846933,Kris Dunn,Memphis Grizzlies,2021-09-04,2022-03-13
+2,846933,Kris Dunn,Boston Celtics,2021-07-30,2021-09-04
+3,846933,Kris Dunn,Atlanta Hawks,2020-11-20,2021-07-30
+4,846933,Kris Dunn,Chicago Bulls,2017-06-22,2020-11-20
+5,846933,Kris Dunn,Minnesota Timberwolves,2016-06-22,2017-06-22
+0,940769,Collin Sexton,Cleveland Cavaliers,2018-06-30,
+0,987559,Luka Šamanić,New York Knicks,2021-10-15,
+1,987559,Luka Šamanić,San Antonio Spurs,2019-06-19,2021-10-15
+0,1178591,Walker Kessler,Utah Jazz,2022-06-30,
+0,987343,Talen Horton-Tucker,Los Angeles Lakers,2019-06-20,
+1,987343,Talen Horton-Tucker,Orlando Magic,2019-06-19,2019-06-20
+1182725,1182725,Ochai Agbaji,Utah Jazz,,
+0,817464,Cody Zeller,Miami Heat,2023-02-24,
+1,817464,Cody Zeller,Utah Jazz,2022-10-02,2023-02-24
+2,817464,Cody Zeller,Portland Trail Blazers,2021-08-03,2022-10-02
+3,817464,Cody Zeller,Charlotte Hornets,2013-06-26,2021-08-03
+0,861512,Simone Fontecchio,Utah Jazz,2022-07-16,
+1,861512,Simone Fontecchio,TD Systems Baskonia,2021-07-08,2022-07-16
+0,817106,Rudy Gay,Utah Jazz,2021-08-06,
+1,817106,Rudy Gay,San Antonio Spurs,2017-07-05,2021-08-06
+2,817106,Rudy Gay,Sacramento Kings,2013-12-08,2017-07-05
+3,817106,Rudy Gay,Toronto Raptors,2013-01-29,2013-12-08
+4,817106,Rudy Gay,Memphis Grizzlies,2006-06-27,2013-01-29
+1178022,1178022,Johnny Juzang,Utah Jazz,,
+0,998860,Juan Toscano-Anderson,Utah Jazz,2023-02-08,
+1,998860,Juan Toscano-Anderson,Los Angeles Lakers,2022-06-30,2023-02-08
+2,998860,Juan Toscano-Anderson,Golden State Warriors,2020-12-21,2022-06-30
+0,846919,Damian Jones,Utah Jazz,2023-02-08,
+1,846919,Damian Jones,Los Angeles Lakers,2022-06-30,2023-02-08
+2,846919,Damian Jones,Sacramento Kings,2021-04-07,2022-06-30
+3,846919,Damian Jones,Los Angeles Lakers,2021-02-25,2021-04-07
+4,846919,Damian Jones,Phoenix Suns,2020-11-22,2021-02-25
+5,846919,Damian Jones,Atlanta Hawks,2019-07-07,2020-11-22
+6,846919,Damian Jones,Golden State Warriors,2016-07-22,2019-07-07
+0,1092867,Udoka Azubuike,Utah Jazz,2020-11-17,
+0,1132139,Micah Potter,Detroit Pistons,2021-12-29,
+0,987611,Jarrell Brantley,UNICS Kazan,2021-09-19,
+1,987611,Jarrell Brantley,Utah Jazz,2019-07-15,2021-09-19
+2,987611,Jarrell Brantley,Indiana Pacers,2019-06-19,2019-07-15
+0,885206,Frank Jackson,Detroit Pistons,2020-12-27,
+1,885206,Frank Jackson,Oklahoma City Thunder,2020-12-04,2020-12-27
+2,885206,Frank Jackson,New Orleans Pelicans,2017-06-22,2020-12-04
+3,885206,Frank Jackson,Charlotte Hornets,2017-06-21,2017-06-22
+0,817017,Jimmy Butler,Miami Heat,2019-06-30,
+1,817017,Jimmy Butler,Philadelphia 76ers,2018-11-09,2019-06-30
+2,817017,Jimmy Butler,Minnesota Timberwolves,2017-06-22,2018-11-09
+3,817017,Jimmy Butler,Chicago Bulls,2011-06-22,2017-06-22
+0,885218,Bam Adebayo,Miami Heat,2017-06-21,
+0,988789,Tyler Herro,Miami Heat,2019-06-19,
+0,817239,Kyle Lowry,Miami Heat,2021-08-06,
+1,817239,Kyle Lowry,Toronto Raptors,2012-07-10,2021-08-06
+2,817239,Kyle Lowry,Houston Rockets,2009-02-18,2012-07-10
+3,817239,Kyle Lowry,Memphis Grizzlies,2006-07-08,2009-02-18
+0,990002,Max Strus,Miami Heat,2020-12-02,
+1,990002,Max Strus,Chicago Bulls,2019-10-21,2020-12-02
+0,990763,Caleb Martin,Miami Heat,2021-09-13,
+1,990763,Caleb Martin,Charlotte Hornets,2019-07-31,2021-09-13
+0,817305,Victor Oladipo,Miami Heat,2021-03-24,
+1,817305,Victor Oladipo,Houston Rockets,2021-01-12,2021-03-24
+2,817305,Victor Oladipo,Indiana Pacers,2017-07-02,2021-01-12
+3,817305,Victor Oladipo,Oklahoma City Thunder,2016-07-04,2017-07-02
+4,817305,Victor Oladipo,Orlando Magic,2013-06-26,2016-07-04
+0,958896,Gabe Vincent,Miami Heat,2020-01-07,
+0,817238,Kevin Love,Miami Heat,2023-02-20,
+1,817238,Kevin Love,Cleveland Cavaliers,2014-08-22,2023-02-20
+2,817238,Kevin Love,Minnesota Timberwolves,2008-04-16,2014-08-22
+0,945092,Duncan Robinson,Miami Heat,2018-08-09,
+0,972549,Haywood Highsmith,Miami Heat,2022-02-14,
+1,972549,Haywood Highsmith,Philadelphia 76ers,2021-09-29,2022-02-14
+2,972549,Haywood Highsmith,Vanoli Cremona,2021-07-26,2021-09-29
+3,972549,Haywood Highsmith,Crailsheim Merlins,2020-09-03,2021-07-26
+4,972549,Haywood Highsmith,Philadelphia 76ers,2019-01-07,2020-09-03
+0,1084054,Nikola Jović,Miami Heat,2022-06-23,
+1180021,1180021,Jamal Cain,Miami Heat,,
+0,817144,Udonis Haslem,Miami Heat,2003-06-24,
+1121280,1121280,Ömer Yurtseven,Miami Heat,,
+1178047,1178047,Jamaree Bouyea,Miami Heat,,
+0,940807,Mikal Bridges,Brooklyn Nets,2023-02-08,
+1,940807,Mikal Bridges,Phoenix Suns,2018-07-01,2023-02-08
+0,817065,Spencer Dinwiddie,Brooklyn Nets,2023-02-04,
+1,817065,Spencer Dinwiddie,Dallas Mavericks,2022-02-09,2023-02-04
+2,817065,Spencer Dinwiddie,Washington Wizards,2021-08-03,2022-02-09
+3,817065,Spencer Dinwiddie,Brooklyn Nets,2016-12-07,2021-08-03
+4,817065,Spencer Dinwiddie,Detroit Pistons,2014-06-25,2016-12-07
+0,1132146,Dru Smith,Miami Heat,2023-01-15,
+1,1132146,Dru Smith,Brooklyn Nets,2022-06-30,2023-01-15
+0,988302,Cameron Johnson,Brooklyn Nets,2023-02-08,
+1,988302,Cameron Johnson,Phoenix Suns,2019-07-05,2023-02-08
+2,988302,Cameron Johnson,Minnesota Timberwolves,2019-06-19,2019-07-05
+0,989006,Nicolas Claxton,Brooklyn Nets,2019-06-19,
+0,905919,Royce O'Neale,Brooklyn Nets,2022-06-29,
+1,905919,Royce O'Neale,Utah Jazz,2017-10-16,2022-06-29
+2,905919,Royce O'Neale,Žalgiris Kaunas BC,2017-06-30,2017-10-16
+3,905919,Royce O'Neale,Herbalife Gran Canaria,2016-09-29,2017-06-30
+0,846909,Dorian Finney-Smith,Brooklyn Nets,2023-02-04,
+1,846909,Dorian Finney-Smith,Dallas Mavericks,2016-07-07,2023-02-04
+0,846949,Ben Simmons,Brooklyn Nets,2022-02-09,
+1,846949,Ben Simmons,Philadelphia 76ers,2016-07-02,2022-02-09
+0,817049,Seth Curry,Brooklyn Nets,2022-02-09,
+1,817049,Seth Curry,Philadelphia 76ers,2020-11-19,2022-02-09
+2,817049,Seth Curry,Dallas Mavericks,2019-07-01,2020-11-19
+3,817049,Seth Curry,Portland Trail Blazers,2018-07-05,2019-07-01
+4,817049,Seth Curry,Dallas Mavericks,2016-07-04,2018-07-05
+5,817049,Seth Curry,Sacramento Kings,2015-07-21,2016-07-04
+6,817049,Seth Curry,Phoenix Suns,2015-03-10,2015-07-21
+7,817049,Seth Curry,Orlando Magic,2014-10-06,2015-03-10
+8,817049,Seth Curry,Cleveland Cavaliers,2014-03-20,2014-10-06
+0,817140,Joe Harris,Brooklyn Nets,2016-07-18,
+1,817140,Joe Harris,Cleveland Cavaliers,2014-06-25,2016-07-18
+0,1134019,Cam Thomas,Brooklyn Nets,2021-07-28,
+0,942986,Yuta Watanabe,Toronto Raptors,2020-12-02,
+0,817270,Patty Mills,Brooklyn Nets,2021-08-02,
+1,817270,Patty Mills,San Antonio Spurs,2012-03-26,2021-08-02
+2,817270,Patty Mills,Portland Trail Blazers,2009-10-06,2012-03-26
+0,885229,Edmond Sumner,Brooklyn Nets,2021-10-05,
+1,885229,Edmond Sumner,Indiana Pacers,2017-06-23,2021-10-05
+2,885229,Edmond Sumner,New Orleans Pelicans,2017-06-22,2017-06-23
+1183963,1183963,David Duke,Brooklyn Nets,,
+0,1134015,Day'Ron Sharpe,Brooklyn Nets,2021-07-28,
+0,817296,Nerlens Noel,Detroit Pistons,2022-06-28,
+1,817296,Nerlens Noel,New York Knicks,2020-11-22,2022-06-28
+2,817296,Nerlens Noel,Oklahoma City Thunder,2018-07-05,2020-11-22
+3,817296,Nerlens Noel,Dallas Mavericks,2017-02-23,2018-07-05
+4,817296,Nerlens Noel,Philadelphia 76ers,2013-07-11,2017-02-23
+5,817296,Nerlens Noel,New Orleans Pelicans,2013-06-26,2013-07-11
+0,996152,Moses Brown,Brooklyn Nets,2023-03-16,
+1,996152,Moses Brown,Cleveland Cavaliers,2022-03-09,2023-03-16
+2,996152,Moses Brown,Dallas Mavericks,2021-07-30,2022-03-09
+3,996152,Moses Brown,Boston Celtics,2021-06-17,2021-07-30
+4,996152,Moses Brown,Oklahoma City Thunder,2020-12-08,2021-06-17
+1412285,1412285,Dru Smith,Brooklyn Nets,,
+1179538,1179538,Alondes Williams,Brooklyn Nets,,
+0,1181231,Paolo Banchero,Orlando Magic,2022-06-22,
+0,905191,Franz Wagner,Orlando Magic,2021-08-09,
+1,905191,Franz Wagner,Michigan Wolverines,2019-07-06,2021-08-09
+0,940800,Wendell Carter Jr.,Orlando Magic,2021-03-24,
+1,940800,Wendell Carter Jr.,Chicago Bulls,2018-07-02,2021-03-24
+0,885237,Markelle Fultz,Orlando Magic,2019-02-06,
+1,885237,Markelle Fultz,Philadelphia 76ers,2017-06-21,2019-02-06
+0,1092865,Cole Anthony,Orlando Magic,2020-11-17,
+0,817139,Gary Harris,Orlando Magic,2021-03-24,
+1,817139,Gary Harris,Denver Nuggets,2014-06-25,2021-03-24
+0,1134017,Jalen Suggs,Orlando Magic,2021-07-28,
+0,987099,Bol Bol,Orlando Magic,2022-02-09,
+1,987099,Bol Bol,Boston Celtics,2022-01-18,2022-02-09
+0,940759,Moritz Wagner,Orlando Magic,2021-04-26,
+1,940759,Moritz Wagner,Boston Celtics,2021-03-24,2021-04-26
+2,940759,Moritz Wagner,Washington Wizards,2019-07-02,2021-03-24
+3,940759,Moritz Wagner,Los Angeles Lakers,2018-06-30,2019-07-02
+0,987103,Chuma Okeke,Orlando Magic,2019-06-19,
+1178446,1178446,Caleb Houstan,Orlando Magic,,
+1094164,1094164,Kevon Harris,Orlando Magic,,
+0,885228,Jonathan Isaac,Orlando Magic,2017-06-21,
+0,989029,Admiral Schofield,Orlando Magic,2021-09-21,
+1,989029,Admiral Schofield,Oklahoma City Thunder,2020-12-02,2021-09-21
+0,958769,Goga Bitadze,Orlando Magic,2023-02-13,
+1,958769,Goga Bitadze,Indiana Pacers,2019-06-30,2023-02-13
+2,958769,Goga Bitadze,Indiana Pacers,2019-06-19,2019-06-30
+0,817025,Michael Carter-Williams,Orlando Magic,2019-03-14,
+1,817025,Michael Carter-Williams,Houston Rockets,2018-07-05,2019-03-14
+2,817025,Michael Carter-Williams,Charlotte Hornets,2017-12-16,2018-07-05
+3,817025,Michael Carter-Williams,Chicago Bulls,2016-10-16,2017-12-16
+4,817025,Michael Carter-Williams,Milwaukee Bucks,2015-02-18,2016-10-16
+5,817025,Michael Carter-Williams,Philadelphia 76ers,2013-09-23,2015-02-18

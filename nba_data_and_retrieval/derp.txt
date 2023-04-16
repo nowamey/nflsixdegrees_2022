@@ -1,0 +1,35 @@
+-- uncleaned.csv
+
+clv2, team0, 6,
+clv2, team1, 2, 6
+clv2, team2, 0, 2
+log, team1, 5, 
+log, team0, 3, 4
+log, team2, 0, 3
+
+
+
+
+-- sorted.csv
+
+clv2, team0, 6, # team0 = {clv2}
+log, team1, 5, # team0 = {clv2}, team1 = {log}
+---- apply all changes, THEN connect nodes
+
+clv2, team1, 2, 6 # team1 = {log, clv2}
+---- apply all changes, THEN connect nodes
+
+log, team0, 3, 4 # team0 = {log}, team1 = {clv2}
+---- apply all changes, THEN connect nodes
+
+log, team2, 0, 3 # team1 = {clv2}, team2 = {log}
+---- apply all changes, THEN connect nodes
+
+clv2, team2, 0, 2 # team2 = {log, clv2}
+---- apply all changes, THEN connect nodes
+
+
+
+teams = {
+    [team_id] = set()
+}

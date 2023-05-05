@@ -1,0 +1,25 @@
+{
+  "name": "nflsixdegrees_2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowamey/nflsixdegrees_2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nowamey/nflsixdegrees_2022/issues"
+  },
+  "homepage": "https://github.com/nowamey/nflsixdegrees_2022#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "graphology": "^0.25.1",
+    "sigma": "^3.0.0-alpha3"
+  }
+}

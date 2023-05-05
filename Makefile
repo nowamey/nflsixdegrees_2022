@@ -1,2 +1,2 @@
 refresh:
-	browserify index.js -o bundle.js
+	browserify webapp/index.js -o webapp/bundle.js

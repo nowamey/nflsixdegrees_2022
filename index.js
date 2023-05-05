@@ -10,29 +10,18 @@ const graph = new Graph()
 graph.import(data)
 
 const renderer = new Sigma(graph, container, {
-    minEdgeSize: 0.2,
-    maxEdgeSize: 0.5
+  minEdgeSize: 0.2,
+  maxEdgeSize: 0.5
 });
 
+// state modifiers
 
-renderer.setSetting("nodeReducer", (node, data) => {
-    const state = {}
-    const res = { ...data };
-  
-    if (state.hoveredNeighbors && !state.hoveredNeighbors.has(node) && state.hoveredNode !== node) {
-      res.label = "";
-      res.color = "#f6f6f6";
-    }
-  
-    if (state.selectedNode === node) {
-      res.highlighted = true;
-    } else if (state.suggestions && !state.suggestions.has(node)) {
-      res.label = "";
-      res.color = "#f6f6f6";
-    }
+// handle searching
+const inputs = ["player-a", "player-b"]
+inputs.forEach(input_id => {
+  document.getElementById(input_id).addEventListener("input", (event) => {
+    console.log(event.target.value)
+  })
+})
 
-    console.log(res);
-  
-    return res;
-  });
 

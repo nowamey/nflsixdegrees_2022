@@ -51,8 +51,8 @@ const bfs = (source, target) => {
     graph.forEachNeighbor(node, neighbor => {
       if (visited.has(neighbor)) return
 
-      visited.add(neighbor)
       const newPath = [...path, neighbor]
+      visited.add(neighbor)
       queue.push(newPath)
     })
   }

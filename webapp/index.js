@@ -5,6 +5,8 @@ const data = require("../data.json")
 // referencing this repository was incredibly helpful
 // sigma.js doesn't have enough documentation yet, unfortunately
 
+const button_container = document.getElementById("cluster-buttons")
+
 const container = document.getElementById("sigma-container")
 container.style.height = "100vh"
 container.style.width = "100vw"
@@ -23,8 +25,8 @@ const renderer = sigma.init(container).drawingProperties({
   fontStyle: "bold",
   activeFontStyle: "bold"
 }).graphProperties({
-  minNodeSize: 1,
-  maxNodeSize: 7,
+  minNodeSize: 2,
+  maxNodeSize: 9,
   minEdgeSize: 0.2,
   maxEdgeSize: 0.5
 }).mouseProperties({
@@ -32,15 +34,32 @@ const renderer = sigma.init(container).drawingProperties({
   maxRatio: 20
 })
 
-const render_direct_neighbors = event => {
-  // retrieve edges from graph's nodes
-  const node_edges = graph._nodes.get(event.content[0]).in
-  renderer.iterNodes(node => {
-    node.active = node.id === event.content[0]
-    // im too lazy to work out the logic for this, so i just negated the good nodes LOL
-    node.hidden = !(node_edges[node.id] !== undefined || node.id === event.content[0])
-  })
-  renderer.draw()
+const selected_nodes = new Set()
+let current_cluster = null
+
+// returns a path of nodes
+const bfs = (source, target) => {
+  const visited = new Set();
+  const queue = [[source]];
+
+  while (queue.length > 0) {
+    const path = queue.shift();
+    const node = path[path.length - 1];
+
+    if (node === target) {
+      return path;
+    }
+
+    graph.forEachNeighbor(node, neighbor => {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        const newPath = [...path, neighbor];
+        queue.push(newPath);
+      }
+    });
+  }
+
+  return null
 }
 
 const remove_selection = () => {
@@ -48,12 +67,69 @@ const remove_selection = () => {
     node.active = false
     node.hidden = false
   })
+
+  renderer.draw()
+}
+
+const render = () => {
+  const selected_nodes_len = selected_nodes.size
+  if (selected_nodes_len == 0) {
+    return remove_selection()
+  }
+
+  let path = selected_nodes_len == 1 ? 
+    graph._nodes.get(Array.from(selected_nodes.values())[0]).in : bfs(...selected_nodes.keys())
+
+  renderer.iterNodes(node => {
+    // we always show these mfs
+    node.active = selected_nodes.has(node.id)
+    node.hidden = false
+
+    // only show neighbors
+    if (selected_nodes_len == 2) {
+      node.hidden = !(path.includes(node.id) || selected_nodes.has(node.id))
+    }
+  })
+
+  renderer.draw()
+}
+
+const add_node_to_render = (event) => {
+  const node_id = event.content[0]
+
+  // prevent having 3+ players selected
+  if (selected_nodes.size === 2 && !selected_nodes.has(node_id)) {
+    selected_nodes.delete(selected_nodes.values().next().value);
+  }
+
+  // remove node if already selected, otherwise add
+  const method = selected_nodes.has(node_id) ? "delete" : "add"
+  selected_nodes[method](node_id)
+
+  render()
+}
+
+const toggle_cluster = cluster => {
+  selected_nodes.clear() // empty all selected players/path
+
+  // toggle cluster
+  if (cluster === current_cluster) {
+    current_cluster = null
+    return remove_selection()
+  }
+
+  current_cluster = cluster
+
+  renderer.iterNodes(node => {
+    // we always show these mfs
+    node.active = false
+    node.hidden = !(renderer.id_clusters[node.id] === cluster)
+  })
+
   renderer.draw()
 }
 
 renderer.parseJson("../data.json", () => {
-  console.log(renderer)
-  console.log(graph)
   const clusters = {}
   const id_clusters = {}
   renderer.clusters = clusters
@@ -66,14 +142,29 @@ renderer.parseJson("../data.json", () => {
     id_clusters[node.id] = cluster
   })
 
+  // ensures cluster buttons are in order
+  const cluster_numbers = Object.keys(clusters)
+  cluster_numbers.sort((a, b) => a - b)
+
+  cluster_numbers.forEach(cluster => {
+    cluster = parseInt(cluster)
+
+    const button = document.createElement('button');
+    button.textContent = `Cluster #${cluster}`;
+
+    button.addEventListener('click', () => {
+      toggle_cluster(cluster)
+    })
+
+    button_container.appendChild(button)
+  })
+
+  // embed list of clusters
+
   // click on a node
-  renderer.bind("downnodes", render_direct_neighbors)
+  renderer.bind("downnodes", add_node_to_render)
   renderer.draw()
 })
-
-// used to untoggle a selection
-document.getElementById("remove-selection").addEventListener("click", remove_selection)
-
 
 
 

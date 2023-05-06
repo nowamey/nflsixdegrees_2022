@@ -39,27 +39,25 @@ let current_cluster = null
 
 // returns a path of nodes
 const bfs = (source, target) => {
-  const visited = new Set();
-  const queue = [[source]];
+  const visited = new Set()
+  const queue = [[source]]
 
   while (queue.length > 0) {
-    const path = queue.shift();
-    const node = path[path.length - 1];
+    const path = queue.shift()
+    const node = path[path.length - 1]
 
-    if (node === target) {
-      return path;
-    }
+    if (node === target) return path
 
     graph.forEachNeighbor(node, neighbor => {
-      if (!visited.has(neighbor)) {
-        visited.add(neighbor);
-        const newPath = [...path, neighbor];
-        queue.push(newPath);
-      }
-    });
+      if (visited.has(neighbor)) return
+
+      visited.add(neighbor)
+      const newPath = [...path, neighbor]
+      queue.push(newPath)
+    })
   }
 
-  return null
+  return []
 }
 
 const remove_selection = () => {
@@ -99,7 +97,7 @@ const add_node_to_render = (event) => {
 
   // prevent having 3+ players selected
   if (selected_nodes.size === 2 && !selected_nodes.has(node_id)) {
-    selected_nodes.delete(selected_nodes.values().next().value);
+    selected_nodes.delete(selected_nodes.values().next().value)
   }
 
   // remove node if already selected, otherwise add
@@ -149,10 +147,10 @@ renderer.parseJson("../data.json", () => {
   cluster_numbers.forEach(cluster => {
     cluster = parseInt(cluster)
 
-    const button = document.createElement('button');
-    button.textContent = `Cluster #${cluster}`;
+    const button = document.createElement("button")
+    button.textContent = `Cluster #${cluster}`
 
-    button.addEventListener('click', () => {
+    button.addEventListener("click", () => {
       toggle_cluster(cluster)
     })
 
@@ -165,8 +163,3 @@ renderer.parseJson("../data.json", () => {
   renderer.bind("downnodes", add_node_to_render)
   renderer.draw()
 })
-
-
-
-
-

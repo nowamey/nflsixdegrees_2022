@@ -127,6 +127,8 @@ const toggle_cluster = cluster => {
   renderer.draw()
 }
 
+const players = {}
+
 renderer.parseJson("../data.json", () => {
   const clusters = {}
   const id_clusters = {}
@@ -138,6 +140,8 @@ renderer.parseJson("../data.json", () => {
     if (!clusters[cluster]) clusters[cluster] = []
     clusters[cluster].push(node.id)
     id_clusters[node.id] = cluster
+
+    players[node.label.toLowerCase()] = node.id
   })
 
   // ensures cluster buttons are in order
@@ -162,4 +166,15 @@ renderer.parseJson("../data.json", () => {
   // click on a node
   renderer.bind("downnodes", add_node_to_render)
   renderer.draw()
+})
+
+const search_button = document.getElementById("search-player-button")
+const search_bar_input = document.getElementById("player-search-input")
+
+search_button.addEventListener("click", () => {
+  const player_name = search_bar_input.value.toLowerCase()
+
+  if (players[player_name]) add_node_to_render({"content": [players[player_name]]})
+
+  console.log("could not find player")
 })

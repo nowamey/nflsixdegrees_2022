@@ -53,3 +53,13 @@ body {
     background: rgba(55,55,55);
     color: white;
 }
+
+#search-bar > hr {
+    margin: .5rem 0;
+}
+
+#player-search {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

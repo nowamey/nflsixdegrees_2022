@@ -82,12 +82,12 @@ const render = () => {
     graph._nodes.get(Array.from(selected_nodes.values())[0]).in : bfs(...selected_nodes.keys())
 
   renderer.iterNodes(node => {
-    // we always show these mfs
-    node.active = selected_nodes.has(node.id)
-    node.hidden = false
 
-    // only show neighbors
-    if (selected_nodes_len == 2) {
+    if (selected_nodes_len == 1) {
+      node.active = selected_nodes.has(node.id)
+      node.hidden = false    
+    } else if (selected_nodes_len == 2) {
+      node.active = (path.includes(node.id) || selected_nodes.has(node.id))
       node.hidden = !(path.includes(node.id) || selected_nodes.has(node.id))
     }
   })

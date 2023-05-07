@@ -84,7 +84,7 @@ const render = () => {
       node.active = selected_nodes.has(node.id)
       node.hidden = false    
     } else if (selected_nodes_len == 2) {
-      node.active = !(path.includes(node.id) || selected_nodes.has(node.id))
+      node.active = (path.includes(node.id) || selected_nodes.has(node.id))
       node.hidden = !(path.includes(node.id) || selected_nodes.has(node.id))
     }
   })
